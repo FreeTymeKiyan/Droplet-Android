@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_drop">关于</string>
+    <string name="version_detect">版本检测</string>
+    <string name="droplet_settings">droplet</string>
+    <string name="Reference_manager">习惯管理</string>
+    <string name="share_settings">分享管理</string>
+    <string name="reference">设置</string>
+    <string name="exit">退出</string>
+    <string name="Mine">我的</string>
+    <string name="habit">个习惯</string>
+    <string name="please_login">请登录！</string>
+    <string name="dialog_ok">确认</string>
+	<string name="dialog_understand">我知道了</string>
+	<string name="dialog_cancel">取消</string>
+    <string name="hello">Hello World, AGoodHabitPerMonthActivity!</string>
+    <!--  -->
+    <string name="app_name">卓普</string>
+    <string name="btn_getRenrenAccess">getRenrenAccess</string>
+    <string name="btn_getWeiboAccess">getWeiboAccess</string>
+    <string name="et_Content">Content to publish</string>
+    <string name="btn_publish">Publish</string>
+    <string name="btn_auth">Weibo authentication</string>
+    <string name="btn_add">Add</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="tv_noHabit">点击左上角养成新习惯吧~</string>
+    <string name="et_dialogContent">some words</string>
+    <string name="tv_titleHint">Title:</string>
+    <string name="tv_myHabits">卓普</string>
+    <string name="tv_createHabit">创建新习惯</string>
+    <string name="tv_newHabitHint">你开始培养一个新的习惯</string>
+    <string name="tv_shareHabitHint">好的开始是成功的一半，把你的计划
+        	分享给朋友们，让他们共同督促和帮助你吧！</string>
+    <string name="btn_share2Renren">分享到人人网</string>
+    <string name="btn_share2Weibo">分享到新浪微博</string>
+    <string name="btn_cancelShare">就先这样吧</string>
+    <string name="tv_habitDetails">我的习惯</string>
+    <string name="tv_detailTitle">Detail Title</string>
+    <string name="tv_detailInfo">Detail Info</string>
+    <string name="tv_thursday">周四</string>
+    <string name="tv_yearAndMonth">2012-05</string>
+    <string name="tv_every">每</string>
+    <string name="et_defaultT">1</string>
+    <string name="tv_days">天</string>
+    
+    <!-- hints -->
+    <string name="hint_habitTitle">要养成这样一个好习惯...</string>
+    
+    <!-- toasts -->
+    <string name="invalid">习惯周期和内容都需要输入</string>
+    <string name="addHabitSuc">Successful</string>
+    <string name="addHabitFal">There should be a title</string>
+    <string name="onTextChanged">16字吧，够清晰了~</string>
+    <string name="onWordsChanged">30个字就够啦~</string>
+    <string name="habitTotalAchieved">你想要养成的习惯太多啦~慢慢来吧！</string>
+    <string name="renrenAuth">人人认证成功！</string>
+    <string name="weiboAuth">新浪微博认证成功！</string>
+    <string name="weiboShare">同步成功</string>
+    <string name="noNetworkConnection">无网络连接，未能同步</string>
+    
+    <!-- activity names -->
+    <string name="add_new">Add new habit</string>
+    <string name="check_details">习惯详情</string>
+    <string name="record_habit">记录习惯</string>
+	<string name="share_center">分享中心</string>
+    <!-- Service的名字 -->
+    <string name="time_service">timeListener</string>
+	<string name="data_service">dataRefreshSvc</string>
+	<!-- 增加习惯 -->
+	<string name="tv_addHabitHint">习惯</string>
+    <string name="tv_iDecideEvery">我决定每</string>
+    <string name="tv_addHint">标上颜色</string>
+    <string name="tv_backgroundHint">设置背景</string>
+    <string name="btn_choosePicture">点击设置背景图片</string>
+    <string name="et_T">周期</string>
+    <!-- 习惯状态 -->
+    <string name="state_successful">成功保持习惯</string>
+    <string name="state_fail">没能保持习惯</string>
+    <string name="state_create">创建习惯</string>
+    <string name="state_record">记录习惯</string>
+    <string name="odds1">这个习惯</string>
+    <string name="odds2">于</string>
+    <string name="briefState1">开始至今已经</string>
+	<string name="briefState2">天</string>
+	<string name="briefState3">成功坚持</string>
+	<string name="briefState4">这个周期内还没记录这个习惯\n赶紧记录吧！</string>
+	<string name="briefState5">这个周期内你成功地\n保持了这个习惯！</string>
+	<string name="briefState6">这个周期内你没能成功\n保持这个习惯\n下次一定要加油！</string>
+	<string name="briefState7">你最近刚刚创建了\n这个习惯，努力吧！</string>
+	<string name="briefState8">你最近为这条习惯\n添加了一个新的记录！</string>
+	<string name="monthlyRate">保持本习惯成功率：</string>
+	<string name="sunday">星期天</string>
+	<string name="monday">星期一</string>
+	<string name="tuesday">星期二</string>
+	<string name="wednesday">星期三</string>
+	<string name="thursday">星期四</string>
+	<string name="friday">星期五</string>
+	<string name="saturday">星期六</string>
+	<string name="menu_back">回首页</string>
+	<string name="menu_options">设置</string>
+	<!-- 习惯记录页 -->
+	<string name="tv_recordHabit">记录</string>
+	<string name="tv_beforeRecordHint">记录</string>
+	<string name="et_recordWords">我想说...</string>
+	<string name="record_successful">我成功保持了</string>
+	<string name="record_fail">我没能够保持</string>
+	<string name="toast_noWords">留下点记录吧！</string>
+	<string name="tv_recordKeepUp">保持</string>
+	<string name="tv_shareBarText">分享给大家</string>
+	<string name="ll_record">这个周期内已经更新了\n增加记录吧！</string>
+	<!-- 分享中心 -->
+	<string name="tv_shareCenter">分享中心</string>
+	<string name="tv_shareImageHint">待分享的内容</string>
+	<string name="tv_shareTextHint">说点什么吧：</string>
+	<string name="et_shareText">我想说...</string>
+	<string name="tv_useAPIHint">和大家分享</string>
+	<string name="success">成功</string>
+	<string name="times">次</string>
+	<!-- 主页 -->
+	<string name="tv_mainTitleHint">为了成就更好的自己</string>
+	<string name="tv_beforeStatistic1">努力养成</string>
+	<string name="tv_afterStatistic1">个习惯</string>
+	<string name="tv_between1and2">今天</string>
+	<string name="tv_beforeStatistic2">成功保持了</string>
+	<string name="tv_afterStatistic2">个习惯</string>
+	<string name="tv_beforeStatistic3">没能保持</string>
+	<string name="tv_afterStatistic3">个习惯</string>
+	<string name="tv_beforeStatistic4">没有记录的有</string>
+	<string name="tv_afterStatistic4">个习惯</string>
+	<string name="tv_successRate">保持习惯成功率：</string>
+	
+	<string name="createWords">你刚刚创建了这个习惯，加油保持吧！</string>
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/rl_listViewHeader"
+    android:background="@android:color/transparent" >
+    
+    <TextView 
+        android:id="@+id/tv_briefState"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|left"
+        android:lineSpacingExtra="3dp"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        />
+    
+    <ImageButton 
+        android:id="@+id/ib_detailTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="标签，需读取"
+        android:background="@android:color/transparent"
+        android:layout_alignTop="@id/tv_briefState"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        />
+    
+    <TextView 
+        android:id="@+id/tv_detailTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|right"
+        android:textSize="15sp"
+	    android:textColor="@android:color/white"
+        android:layout_marginTop="25dp"
+        android:layout_toLeftOf="@id/ib_detailTag"
+        android:layout_marginRight="3dp"
+        />
+	    
+    <TextView 
+        android:id="@+id/tv_monthlyRate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left|center_vertical"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/tv_detailTitle"
+        android:layout_marginTop="100dp"
+		android:layout_marginLeft="10dp"	        
+        />
+    
+    <TextView 
+        android:id="@+id/tv_detailToday"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|right"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:layout_alignBottom="@id/tv_monthlyRate"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        />
+    
+    <TextView 
+        android:id="@+id/tv_monthlyRateNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/tv_monthlyRate"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="10dp"
+        android:paddingBottom="10dp"
+        />
+    
+    <TextView 
+        android:id="@+id/tv_date"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/tv_detailToday"
+        android:layout_alignTop="@id/tv_monthlyRateNum"
+        android:layout_marginRight="10dp"
+        android:layout_alignParentRight="true"
+        />
+    
+    <TextView 
+	    android:id="@+id/tv_currentTime"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="15sp"
+	    android:textColor="@android:color/white"
+	    android:layout_below="@id/tv_date"
+	    android:layout_alignBottom="@id/tv_monthlyRateNum"
+	    android:layout_marginRight="10dp"
+	    android:layout_alignParentRight="true"
+	    android:paddingBottom="10dp"
+	    />
+</RelativeLayout>

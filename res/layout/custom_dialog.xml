@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialogRoot"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/u0_original">
+    
+    <TextView 
+        android:id="@+id/tv_dialogTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        />
+    
+    <TextView 
+        android:id="@+id/tv_dialogDate"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:layout_below="@id/tv_dialogTitle"
+        android:layout_alignLeft="@id/tv_dialogTitle"
+        />
+    
+    <TextView 
+        android:id="@+id/tv_dialogSucDay"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:padding="5dp"
+        android:layout_below="@id/tv_dialogDate"
+        android:layout_alignLeft="@id/tv_dialogDate"
+        />
+    
+    <EditText 
+        android:id="@+id/tv_dialogContent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/et_dialogContent"
+        android:textSize="20dp"
+        android:layout_margin="5dp"
+        android:layout_below="@id/tv_dialogSucDay"
+        android:layout_alignLeft="@id/tv_dialogSucDay"
+        />
+    
+    <ImageButton 
+        android:id="@+id/ib_syncWeibo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:src="@drawable/sync_weibo"
+        android:contentDescription="@drawable/sync_weibo"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/tv_dialogContent"
+        android:padding="5dp"
+        android:layout_marginRight="5dp"/>
+    
+    <ImageButton 
+        android:id="@+id/ib_syncRenren"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitXY"
+        android:background="@android:color/transparent"
+        android:src="@drawable/sync_renren"
+        android:contentDescription="@drawable/sync_renren"
+        android:layout_below="@id/tv_dialogContent"
+        android:layout_toLeftOf="@id/ib_syncWeibo"
+        android:padding="5dp"
+        android:layout_marginRight="5dp"/>
+    
+    <LinearLayout 
+        android:layout_alignLeft="@id/tv_dialogContent"
+        android:layout_below="@id/ib_syncWeibo"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent">
+        
+        <Button 
+            android:id="@+id/btn_publish"
+            android:layout_width="0dp" 
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_publish"
+            android:layout_margin="5dp"/>
+        
+        <Button 
+            android:id="@+id/btn_cancel"
+            android:layout_width="0dp" 
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/btn_cancel"
+            android:layout_margin="5dp"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,595 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+ADD_HABIT_PREF	.\Constants\Constants.java	/^	public static final String ADD_HABIT_PREF = "addhabitpref";$/;"	f	interface:Constants
+AGoodHabitPerMonthActivity	.\AGoodHabitPerMonthActivity.java	/^public class AGoodHabitPerMonthActivity extends Activity {$/;"	c
+ALL_HABITS	.\Constants\Constants.java	/^	public static final String ALL_HABITS = "allhabits";$/;"	f	interface:Constants
+ALL_HABITS_LOG	.\Constants\Constants.java	/^	public static final String ALL_HABITS_LOG = "allhabitslog";$/;"	f	interface:Constants
+AUTHORIZATION	.\Constants\Constants.java	/^	public static final String AUTHORIZATION = "authorization";$/;"	f	interface:Constants
+AddHabit	.\Main\AddHabit.java	/^public class AddHabit extends Activity {$/;"	c
+AuthDialogListener	.\Authorize\WeiboAuth.java	/^	public class AuthDialogListener implements WeiboDialogListener {$/;"	c	class:WeiboAuth
+AuthDialogListener	.\Main\Share2WeiboRunnable.java	/^	class AuthDialogListener implements WeiboDialogListener {$/;"	c	class:Share2WeiboRunnable
+AuthDialogListener	.\Main\ShareCenter.java	/^	class AuthDialogListener implements WeiboDialogListener {$/;"	c	class:ShareCenter
+AuthorizeCenter	.\Authorize\AuthorizeCenter.java	/^public class AuthorizeCenter {$/;"	c
+BACKGROUND	.\Constants\Constants.java	/^	public static final String BACKGROUND = "background";$/;"	f	interface:Constants
+CHOOSE_PIC_FROM_ALBUM	.\Main\AddHabit.java	/^	private static final int CHOOSE_PIC_FROM_ALBUM = 0;$/;"	f	class:AddHabit	file:
+CHOOSE_PIC_FROM_CAMERA	.\Main\AddHabit.java	/^	private static final int CHOOSE_PIC_FROM_CAMERA = 1;$/;"	f	class:AddHabit	file:
+CURRENT_STATE	.\Constants\Constants.java	/^	public static final String CURRENT_STATE = "currentstate";$/;"	f	interface:Constants
+Constants	.\Constants\Constants.java	/^public interface Constants extends BaseColumns{$/;"	i
+DARK_GREEN_TAG	.\Constants\Constants.java	/^	public static final int DARK_GREEN_TAG = 5;$/;"	f	interface:Constants
+DATE_MINUS	.\Constants\Constants.java	/^	public static final String DATE_MINUS = "dateminus";$/;"	f	interface:Constants
+DAYS	.\Constants\Constants.java	/^	public static final String DAYS = "days";$/;"	f	interface:Constants
+DEFAULT_TIME	.\Constants\Constants.java	/^	public static final int DEFAULT_TIME = 21;$/;"	f	interface:Constants
+DataRefreshSvc	.\Service\DataRefreshSvc.java	/^public class DataRefreshSvc extends Service{$/;"	c
+Details	.\Main\Details.java	/^public class Details extends Activity {$/;"	c
+EXIT_DATE	.\Constants\Constants.java	/^	public static final String EXIT_DATE = "exitdate";$/;"	f	interface:Constants
+EXIT_INFO	.\Constants\Constants.java	/^	public static final String EXIT_INFO = "exitinfo";$/;"	f	interface:Constants
+FAIL_TIMES	.\Constants\Constants.java	/^	public static final String FAIL_TIMES = "fail";$/;"	f	interface:Constants
+GREEN_TAG	.\Constants\Constants.java	/^	public static final int GREEN_TAG = 4;$/;"	f	interface:Constants
+HABITS	.\Constants\Constants.java	/^	public static final String HABITS = "habits";$/;"	f	interface:Constants
+HABITS_VERSION	.\Constants\Constants.java	/^	public static final int HABITS_VERSION = 1;$/;"	f	interface:Constants
+HABIT_STATE_CREATE	.\Constants\Constants.java	/^	public static final int HABIT_STATE_CREATE = 3;$/;"	f	interface:Constants
+HABIT_STATE_FAIL	.\Constants\Constants.java	/^	public static final int HABIT_STATE_FAIL = 2;$/;"	f	interface:Constants
+HABIT_STATE_NOT_RECORDED	.\Constants\Constants.java	/^	public static final int HABIT_STATE_NOT_RECORDED = 0;$/;"	f	interface:Constants
+HABIT_STATE_RECORD	.\Constants\Constants.java	/^	public static final int HABIT_STATE_RECORD = 4;$/;"	f	interface:Constants
+HABIT_STATE_SUCCESSFUL	.\Constants\Constants.java	/^	public static final int HABIT_STATE_SUCCESSFUL = 1;$/;"	f	interface:Constants
+HANDLER_MSG_REFRESH_RENREN	.\Constants\Constants.java	/^	public static final int HANDLER_MSG_REFRESH_RENREN = 0;$/;"	f	interface:Constants
+HANDLER_MSG_REFRESH_WEIBO	.\Constants\Constants.java	/^	public static final int HANDLER_MSG_REFRESH_WEIBO = 1;$/;"	f	interface:Constants
+Habit	.\Main\Habit.java	/^	public Habit(ContentValues values) {$/;"	m	class:Habit
+Habit	.\Main\Habit.java	/^public class Habit {$/;"	c
+HabitDatabase	.\databases\HabitDatabase.java	/^	public HabitDatabase(Context context) {$/;"	m	class:HabitDatabase
+HabitDatabase	.\databases\HabitDatabase.java	/^public class HabitDatabase extends SQLiteOpenHelper {$/;"	c
+INSIST_DAYS	.\Constants\Constants.java	/^	public static final String INSIST_DAYS = "insistdays";$/;"	f	interface:Constants
+IN_T_STATE	.\Constants\Constants.java	/^	public static final String IN_T_STATE = "intstate";$/;"	f	interface:Constants
+IsCanMove	.\CustomLayout\MyScrollLayout.java	/^	private boolean IsCanMove(int deltaX)$/;"	m	class:MyScrollLayout	file:
+IsCanMove	.\view\MyScrollLayout.java	/^	private boolean IsCanMove(int deltaX)$/;"	m	class:MyScrollLayout	file:
+ItemIDs	.\Main\MySimpleAdapter.java	/^    private int ItemIDs[];$/;"	f	class:MySimpleAdapter	file:
+ItemIDs	.\Main\PopupListAdapter.java	/^    private int ItemIDs[];$/;"	f	class:PopupListAdapter	file:
+ItemIDs	.\Main\SidelistAdapter.java	/^    private int ItemIDs[];$/;"	f	class:SidelistAdapter	file:
+LATEST_STATE	.\Constants\Constants.java	/^	public static final String LATEST_STATE = "lateststate";$/;"	f	interface:Constants
+LIGHT_PURPLE_TAG	.\Constants\Constants.java	/^	public static final int LIGHT_PURPLE_TAG = 6;$/;"	f	interface:Constants
+MyBroadcastReceiver	.\Broadcast\MyBroadcastReceiver.java	/^public class MyBroadcastReceiver extends BroadcastReceiver{$/;"	c
+MyHandler	.\Main\AddHabit.java	/^		public MyHandler(Looper looper) {$/;"	m	class:AddHabit.MyHandler
+MyHandler	.\Main\AddHabit.java	/^	class MyHandler extends Handler {$/;"	c	class:AddHabit
+MyHandler	.\Main\RecordHabit.java	/^		public MyHandler(Looper looper) {$/;"	m	class:RecordHabit.MyHandler
+MyHandler	.\Main\RecordHabit.java	/^	class MyHandler extends Handler {$/;"	c	class:RecordHabit
+MyImageButton	.\CustomLayout\MyImageButton.java	/^	public MyImageButton(Context context, int imageResId, int textResId) { $/;"	m	class:MyImageButton
+MyImageButton	.\CustomLayout\MyImageButton.java	/^public class MyImageButton extends LinearLayout { $/;"	c
+MyScrollLayout	.\CustomLayout\MyScrollLayout.java	/^	public MyScrollLayout(Context context) {$/;"	m	class:MyScrollLayout
+MyScrollLayout	.\CustomLayout\MyScrollLayout.java	/^	public MyScrollLayout(Context context, AttributeSet attrs) {$/;"	m	class:MyScrollLayout
+MyScrollLayout	.\CustomLayout\MyScrollLayout.java	/^	public MyScrollLayout(Context context, AttributeSet attrs, int defStyle) {$/;"	m	class:MyScrollLayout
+MyScrollLayout	.\CustomLayout\MyScrollLayout.java	/^public class MyScrollLayout extends ViewGroup{$/;"	c
+MyScrollLayout	.\view\MyScrollLayout.java	/^	public MyScrollLayout(Context context) {$/;"	m	class:MyScrollLayout
+MyScrollLayout	.\view\MyScrollLayout.java	/^	public MyScrollLayout(Context context, AttributeSet attrs) {$/;"	m	class:MyScrollLayout
+MyScrollLayout	.\view\MyScrollLayout.java	/^	public MyScrollLayout(Context context, AttributeSet attrs, int defStyle) {$/;"	m	class:MyScrollLayout
+MyScrollLayout	.\view\MyScrollLayout.java	/^public class MyScrollLayout extends ViewGroup{$/;"	c
+MySimpleAdapter	.\Main\MySimpleAdapter.java	/^    public MySimpleAdapter(Context context, List<Map<String, Object>> list,$/;"	m	class:MySimpleAdapter
+MySimpleAdapter	.\Main\MySimpleAdapter.java	/^public class MySimpleAdapter extends BaseAdapter {$/;"	c
+NO_TAG	.\Constants\Constants.java	/^	public static final int NO_TAG = 0;$/;"	f	interface:Constants
+ORANGE_TAG	.\Constants\Constants.java	/^	public static final int ORANGE_TAG = 2;$/;"	f	interface:Constants
+PURPLE_TAG	.\Constants\Constants.java	/^	public static final int PURPLE_TAG = 7;$/;"	f	interface:Constants
+PopupListAdapter	.\Main\PopupListAdapter.java	/^    public PopupListAdapter(Context context, List<Map<String, Object>> list,$/;"	m	class:PopupListAdapter
+PopupListAdapter	.\Main\PopupListAdapter.java	/^public class PopupListAdapter extends BaseAdapter {$/;"	c
+QQ_APP_ID	.\Constants\Constants.java	/^	public static final String QQ_APP_ID = "100627445";$/;"	f	interface:Constants
+QQ_APP_KEY	.\Constants\Constants.java	/^	public static final String QQ_APP_KEY = "59a712d9b64e653f705f528a6ca2d6ee";$/;"	f	interface:Constants
+QQ_APP_NAME	.\Constants\Constants.java	/^	public static final String QQ_APP_NAME = "app100627445";$/;"	f	interface:Constants
+QQ_AUTHORIZE	.\Constants\Constants.java	/^	public static final String QQ_AUTHORIZE = "qqauthorize";$/;"	f	interface:Constants
+RED_TAG	.\Constants\Constants.java	/^	public static final int RED_TAG = 1;$/;"	f	interface:Constants
+RENREN_API_KEY	.\Constants\Constants.java	/^	public static final String RENREN_API_KEY = "a27cd23f525c4d88b9f083df79be4cb9";$/;"	f	interface:Constants
+RENREN_AUTHORIZE	.\Constants\Constants.java	/^	public static final String RENREN_AUTHORIZE = "renrenauthorize";$/;"	f	interface:Constants
+RENREN_SECRET_KEY	.\Constants\Constants.java	/^	public static final String RENREN_SECRET_KEY = "72fcfde91e434e5388717ffc3c65792e";$/;"	f	interface:Constants
+REQUEST_ADD_HABIT	.\Constants\Constants.java	/^	public static final int REQUEST_ADD_HABIT = 0;$/;"	f	interface:Constants
+REQUEST_HABIT_DETAILS	.\Constants\Constants.java	/^	public static final int REQUEST_HABIT_DETAILS = 4;$/;"	f	interface:Constants
+REQUEST_QQ_AUTHORIZE	.\Constants\Constants.java	/^	public static final int REQUEST_QQ_AUTHORIZE = 3;$/;"	f	interface:Constants
+REQUEST_RECORD	.\Constants\Constants.java	/^	public static final int REQUEST_RECORD = 5;$/;"	f	interface:Constants
+REQUEST_RENREN_AUTHORIZE	.\Constants\Constants.java	/^	public static final int REQUEST_RENREN_AUTHORIZE = 2;$/;"	f	interface:Constants
+REQUEST_SHARE	.\Constants\Constants.java	/^	public static final int REQUEST_SHARE = 6;$/;"	f	interface:Constants
+REQUEST_WEIBO_AUTHORIZE	.\Constants\Constants.java	/^	public static final int REQUEST_WEIBO_AUTHORIZE = 1;$/;"	f	interface:Constants
+REREN_APP_ID	.\Constants\Constants.java	/^	public static final String REREN_APP_ID = "181484";$/;"	f	interface:Constants
+RecordHabit	.\Main\RecordHabit.java	/^public class RecordHabit extends Activity{$/;"	c
+RenrenAuth	.\Authorize\RenrenAuth.java	/^public class RenrenAuth extends Activity {$/;"	c
+SHARE_TO_RENREN	.\Constants\Constants.java	/^	public static final String SHARE_TO_RENREN = "sharetorenren";$/;"	f	interface:Constants
+SHARE_TO_WEIBO	.\Constants\Constants.java	/^	public static final String SHARE_TO_WEIBO = "sharetoweibo";$/;"	f	interface:Constants
+SINGLE_HABIT_STATISTICS	.\Constants\Constants.java	/^	public static final String SINGLE_HABIT_STATISTICS = "singlehabitstatistics";$/;"	f	interface:Constants
+SNAP_VELOCITY	.\CustomLayout\MyScrollLayout.java	/^    private static final int SNAP_VELOCITY = 600;        $/;"	f	class:MyScrollLayout	file:
+SNAP_VELOCITY	.\view\MyScrollLayout.java	/^    private static final int SNAP_VELOCITY = 600;        $/;"	f	class:MyScrollLayout	file:
+STATE_NOT_PUBLISH	.\Constants\Constants.java	/^	public static final int STATE_NOT_PUBLISH = 0;$/;"	f	interface:Constants
+STATE_PUBLISH	.\Constants\Constants.java	/^	public static final int STATE_PUBLISH = 1;$/;"	f	interface:Constants
+SUCCESSFUL_TIMES	.\Constants\Constants.java	/^	public static final String SUCCESSFUL_TIMES = "successful";$/;"	f	interface:Constants
+Share2RenrenRunnable	.\Main\Share2RenrenRunnable.java	/^	public Share2RenrenRunnable(Context context, Activity activity, Handler handler) {$/;"	m	class:Share2RenrenRunnable
+Share2RenrenRunnable	.\Main\Share2RenrenRunnable.java	/^	public Share2RenrenRunnable(String content, Context context, Activity activity, Handler handler) {$/;"	m	class:Share2RenrenRunnable
+Share2RenrenRunnable	.\Main\Share2RenrenRunnable.java	/^public class Share2RenrenRunnable implements Runnable {$/;"	c
+Share2WeiboRunnable	.\Main\Share2WeiboRunnable.java	/^	public Share2WeiboRunnable (String content, Context context, Activity shareCenter, $/;"	m	class:Share2WeiboRunnable
+Share2WeiboRunnable	.\Main\Share2WeiboRunnable.java	/^	public Share2WeiboRunnable(Context context, Activity shareCenter, $/;"	m	class:Share2WeiboRunnable
+Share2WeiboRunnable	.\Main\Share2WeiboRunnable.java	/^public class Share2WeiboRunnable implements Runnable, RequestListener{$/;"	c
+ShareCenter	.\Main\ShareCenter.java	/^public class ShareCenter extends Activity implements RequestListener{$/;"	c
+SidelistAdapter	.\Main\SidelistAdapter.java	/^    public SidelistAdapter(Context context, List<Map<String, Object>> list,$/;"	m	class:SidelistAdapter
+SidelistAdapter	.\Main\SidelistAdapter.java	/^public class SidelistAdapter extends BaseAdapter {$/;"	c
+T	.\Main\AddHabit.java	/^	private int T;$/;"	f	class:AddHabit	file:
+TAG	.\Constants\Constants.java	/^	public static final String TAG = "tag";$/;"	f	interface:Constants
+TAG	.\CustomLayout\MyScrollLayout.java	/^    private static final String TAG = "ScrollLayout";      $/;"	f	class:MyScrollLayout	file:
+TAG	.\view\MyScrollLayout.java	/^    private static final String TAG = "ScrollLayout";      $/;"	f	class:MyScrollLayout	file:
+TAuth	.\Authorize\TAuth.java	/^public class TAuth extends Activity {$/;"	c
+TIMESTAMP	.\Constants\Constants.java	/^	public static final String TIMESTAMP = "timestamp";$/;"	f	interface:Constants
+TITLE	.\Constants\Constants.java	/^	public static final String TITLE = "title";$/;"	f	interface:Constants
+TITLE_MAX_LENGTH	.\Constants\Constants.java	/^	public static final int TITLE_MAX_LENGTH = 16;$/;"	f	interface:Constants
+TimeListenerSvc	.\Service\TimeListenerSvc.java	/^public class TimeListenerSvc extends Service {$/;"	c
+ToggleStatePerDaySvc	.\Main\ToggleStatePerDaySvc.java	/^public class ToggleStatePerDaySvc {$/;"	c
+UPDATE_RENREN_STATE	.\Constants\Constants.java	/^	public static final int UPDATE_RENREN_STATE = 3;$/;"	f	interface:Constants
+UPDATE_SINA_STATE	.\Constants\Constants.java	/^	public static final int UPDATE_SINA_STATE = 2;$/;"	f	interface:Constants
+UUID	.\Constants\Constants.java	/^	public static final String UUID = "uuid";$/;"	f	interface:Constants
+User_Id	.\Main\preference.java	/^	private String User_Id[];$/;"	f	class:preference	file:
+Utils	.\Utils\Utils.java	/^public class Utils {$/;"	c
+Version_Detect	.\Main\preference.java	/^	private TextView Version_Detect;$/;"	f	class:preference	file:
+ViewHolder	.\Main\MySimpleAdapter.java	/^    	public ViewHolder() {$/;"	m	class:MySimpleAdapter.ViewHolder
+ViewHolder	.\Main\MySimpleAdapter.java	/^    static class ViewHolder {$/;"	c	class:MySimpleAdapter
+WEIBO_APP_KEY	.\Constants\Constants.java	/^	public static final String WEIBO_APP_KEY = "318866733";$/;"	f	interface:Constants
+WEIBO_APP_SECRET	.\Constants\Constants.java	/^	public static final String WEIBO_APP_SECRET = "376309acc370d6b83bd5bc54d7b6317a";$/;"	f	interface:Constants
+WEIBO_AUTHORIZE	.\Constants\Constants.java	/^	public static final String WEIBO_AUTHORIZE = "weiboauthorize";$/;"	f	interface:Constants
+WEIBO_REDIRECT_URL	.\Constants\Constants.java	/^	public static final String WEIBO_REDIRECT_URL = "http:\/\/www.sina.com";$/;"	f	interface:Constants
+WHEN_CREATE	.\Constants\Constants.java	/^	public static final int WHEN_CREATE = 0;$/;"	f	interface:Constants
+WHEN_RECORD	.\Constants\Constants.java	/^	public static final int WHEN_RECORD = 1;$/;"	f	interface:Constants
+WITHOUT_RECORD_TIMES	.\Constants\Constants.java	/^	public static final String WITHOUT_RECORD_TIMES = "withoutrecordtimes";$/;"	f	interface:Constants
+WORDS	.\Constants\Constants.java	/^	public static final String WORDS = "words";$/;"	f	interface:Constants
+WORDS_MAX_LENGTH	.\Constants\Constants.java	/^	public static final int WORDS_MAX_LENGTH = 30;$/;"	f	interface:Constants
+WeiboAuth	.\Authorize\WeiboAuth.java	/^public class WeiboAuth extends Activity {$/;"	c
+YELLOW_TAG	.\Constants\Constants.java	/^	public static final int YELLOW_TAG = 3;$/;"	f	interface:Constants
+about	.\Main\preference.java	/^	private TextView about;$/;"	f	class:preference	file:
+adapter	.\AGoodHabitPerMonthActivity.java	/^	private MySimpleAdapter adapter;$/;"	f	class:AGoodHabitPerMonthActivity	file:
+adapter	.\Main\Details.java	/^	private MySimpleAdapter adapter;$/;"	f	class:Details	file:
+add	.\AGoodHabitPerMonthActivity.java	/^	private ImageButton add;$/;"	f	class:AGoodHabitPerMonthActivity	file:
+addHabit	.\Main\AddHabit.java	/^	private ImageButton addHabit;$/;"	f	class:AddHabit	file:
+addListener	.\Main\MySimpleAdapter.java	/^    public void addListener(View convertView) {$/;"	m	class:MySimpleAdapter
+addListener	.\Main\PopupListAdapter.java	/^    public void addListener(View convertView) {$/;"	m	class:PopupListAdapter
+addListener	.\Main\SidelistAdapter.java	/^    public void addListener(View convertView) {$/;"	m	class:SidelistAdapter
+addNewHabit	.\AGoodHabitPerMonthActivity.java	/^	protected void addNewHabit() {$/;"	m	class:AGoodHabitPerMonthActivity
+addNewHabit	.\Main\Details.java	/^	protected void addNewHabit() {$/;"	m	class:Details
+addRenren	.\Main\AddHabit.java	/^	private ImageButton addRenren;$/;"	f	class:AddHabit	file:
+addRenren	.\Main\RecordHabit.java	/^	private ImageButton addRenren;$/;"	f	class:RecordHabit	file:
+addWeibo	.\Main\AddHabit.java	/^	private ImageButton addWeibo;$/;"	f	class:AddHabit	file:
+addWeibo	.\Main\RecordHabit.java	/^	private ImageButton addWeibo;$/;"	f	class:RecordHabit	file:
+allHabitsLog	.\AGoodHabitPerMonthActivity.java	/^	private Bundle allHabitsLog;$/;"	f	class:AGoodHabitPerMonthActivity	file:
+askForDateMinus	.\AGoodHabitPerMonthActivity.java	/^	private void askForDateMinus() {$/;"	m	class:AGoodHabitPerMonthActivity	file:
+asyncUpdate	.\Service\DataRefreshSvc.java	/^	private class asyncUpdate extends AsyncTask<Integer, Integer, Boolean> {$/;"	c	class:DataRefreshSvc
+auth	.\Authorize\RenrenAuth.java	/^	private Button auth;$/;"	f	class:RenrenAuth	file:
+auth	.\Authorize\TAuth.java	/^	private Button auth;$/;"	f	class:TAuth	file:
+auth	.\Authorize\WeiboAuth.java	/^	private Button auth;$/;"	f	class:WeiboAuth	file:
+background	.\Main\AddHabit.java	/^	private Uri background = Uri.parse("android.resource:\/\/" +$/;"	f	class:AddHabit	file:
+background	.\Main\Details.java	/^	private String background = "";$/;"	f	class:Details	file:
+background	.\Main\Habit.java	/^	public String background = "#000000";$/;"	f	class:Habit
+backgroundBoolean	.\Main\Habit.java	/^	public boolean backgroundBoolean = false;$/;"	f	class:Habit
+briefState	.\Main\Details.java	/^	private TextView briefState;$/;"	f	class:Details	file:
+cancel	.\Main\AddHabit.java	/^	private ImageButton cancel;$/;"	f	class:AddHabit	file:
+certainTagBackground	.\AGoodHabitPerMonthActivity.java	/^	private Drawable certainTagBackground;$/;"	f	class:AGoodHabitPerMonthActivity	file:
+checkNetworkInfo	.\Main\AddHabit.java	/^	private boolean checkNetworkInfo() {$/;"	m	class:AddHabit	file:
+checkNetworkInfo	.\Main\RecordHabit.java	/^	private boolean checkNetworkInfo() {$/;"	m	class:RecordHabit	file:
+chooseBackground	.\Main\AddHabit.java	/^	private Button chooseBackground;$/;"	f	class:AddHabit	file:
+clean_Renren	.\Main\preference.java	/^    public void clean_Renren(Context context){$/;"	m	class:preference
+clearAllAnimation	.\Main\AddHabit.java	/^	protected void clearAllAnimation() {$/;"	m	class:AddHabit
+computeScroll	.\CustomLayout\MyScrollLayout.java	/^	public void computeScroll() {$/;"	m	class:MyScrollLayout
+computeScroll	.\view\MyScrollLayout.java	/^	public void computeScroll() {$/;"	m	class:MyScrollLayout
+conn	.\AGoodHabitPerMonthActivity.java	/^	private ServiceConnection conn = new ServiceConnection() {$/;"	f	class:AGoodHabitPerMonthActivity	file:
+createPic	.\Main\AddHabit.java	/^	private Bitmap createPic(Bitmap myBitmap) {$/;"	m	class:AddHabit	file:
+currentState	.\Main\Habit.java	/^	public int currentState = HABIT_STATE_NOT_RECORDED;$/;"	f	class:Habit
+currentStateBoolean	.\Main\Habit.java	/^	public boolean currentStateBoolean = false;$/;"	f	class:Habit
+days	.\Main\Habit.java	/^	public int days = 1;$/;"	f	class:Habit
+daysBoolean	.\Main\Habit.java	/^	public boolean daysBoolean = false;$/;"	f	class:Habit
+delete	.\databases\HabitDatabase.java	/^	public void delete(String uuid) {$/;"	m	class:HabitDatabase
+detail	.\Main\MySimpleAdapter.java	/^    	TextView detail;$/;"	f	class:MySimpleAdapter.ViewHolder
+detailTagBackground	.\Main\Details.java	/^	private Drawable detailTagBackground;$/;"	f	class:Details	file:
+differ	.\Utils\Utils.java	/^	public static int differ(Calendar dateBefore, Calendar dateAfter) {$/;"	m	class:Utils
+dispatchKeyEvent	.\AGoodHabitPerMonthActivity.java	/^	public boolean dispatchKeyEvent(KeyEvent event) {$/;"	m	class:AGoodHabitPerMonthActivity
+dispatchKeyEvent	.\Main\Details.java	/^	public boolean dispatchKeyEvent(KeyEvent event) {$/;"	m	class:Details
+doInBackground	.\Service\DataRefreshSvc.java	/^		protected Boolean doInBackground(Integer... params) {$/;"	m	class:DataRefreshSvc.asyncUpdate
+failCount	.\AGoodHabitPerMonthActivity.java	/^	private int failCount;$/;"	f	class:AGoodHabitPerMonthActivity	file:
+failDays	.\Main\Habit.java	/^	public int failDays = 0;$/;"	f	class:Habit
+failDaysBoolean	.\Main\Habit.java	/^	public boolean failDaysBoolean = false;$/;"	f	class:Habit
+flag	.\Main\Details.java	/^	private int flag = 0;$/;"	f	class:Details	file:
+flag	.\Main\MySimpleAdapter.java	/^    private String flag[];$/;"	f	class:MySimpleAdapter	file:
+flag	.\Main\PopupListAdapter.java	/^    private String flag[];$/;"	f	class:PopupListAdapter	file:
+flag	.\Main\SidelistAdapter.java	/^    private String flag[];$/;"	f	class:SidelistAdapter	file:
+flag	.\Main\preference.java	/^	private int flag = 0;$/;"	f	class:preference	file:
+getAllHabits	.\AGoodHabitPerMonthActivity.java	/^	private void getAllHabits() {$/;"	m	class:AGoodHabitPerMonthActivity	file:
+getCalendarString	.\Utils\Utils.java	/^	public static String getCalendarString() {$/;"	m	class:Utils
+getCount	.\Main\MySimpleAdapter.java	/^	public int getCount() {$/;"	m	class:MySimpleAdapter
+getCount	.\Main\PopupListAdapter.java	/^	public int getCount() {$/;"	m	class:PopupListAdapter
+getCount	.\Main\SidelistAdapter.java	/^	public int getCount() {$/;"	m	class:SidelistAdapter
+getDataFromLastPage	.\Main\RecordHabit.java	/^	private void getDataFromLastPage() {$/;"	m	class:RecordHabit	file:
+getDateString	.\Utils\Utils.java	/^	public static String getDateString() {$/;"	m	class:Utils
+getFormatTime	.\Utils\Utils.java	/^	public static String getFormatTime(long temp) {$/;"	m	class:Utils
+getIDFromState	.\AGoodHabitPerMonthActivity.java	/^	private int getIDFromState(int inTState) {$/;"	m	class:AGoodHabitPerMonthActivity	file:
+getInfo	.\Main\Details.java	/^	private void getInfo() {$/;"	m	class:Details	file:
+getItem	.\Main\MySimpleAdapter.java	/^	public Object getItem(int arg0) {$/;"	m	class:MySimpleAdapter
+getItem	.\Main\PopupListAdapter.java	/^	public Object getItem(int arg0) {$/;"	m	class:PopupListAdapter
+getItem	.\Main\SidelistAdapter.java	/^	public Object getItem(int arg0) {$/;"	m	class:SidelistAdapter
+getItemId	.\Main\MySimpleAdapter.java	/^	public long getItemId(int arg0) {$/;"	m	class:MySimpleAdapter
+getItemId	.\Main\PopupListAdapter.java	/^	public long getItemId(int arg0) {$/;"	m	class:PopupListAdapter
+getItemId	.\Main\SidelistAdapter.java	/^	public long getItemId(int arg0) {$/;"	m	class:SidelistAdapter
+getPicFromBytes	.\Main\AddHabit.java	/^	public static Bitmap getPicFromBytes(byte[] bytes , BitmapFactory.Options opts ) {$/;"	m	class:AddHabit
+getRenrenAccess	.\Main\ShareCenter.java	/^	protected boolean getRenrenAccess() {$/;"	m	class:ShareCenter
+getResIDFromTagAndState	.\AGoodHabitPerMonthActivity.java	/^	private int getResIDFromTagAndState(int tag, int inTState) {$/;"	m	class:AGoodHabitPerMonthActivity	file:
+getResIDFromTagAndState	.\Main\Details.java	/^	private int getResIDFromTagAndState(int tag, int inTState) {$/;"	m	class:Details	file:
+getTagRectIDFromTag	.\AGoodHabitPerMonthActivity.java	/^	private int getTagRectIDFromTag(int tag) {$/;"	m	class:AGoodHabitPerMonthActivity	file:
+getUUID	.\Utils\Utils.java	/^    public static String getUUID(){ $/;"	m	class:Utils
+getUUID	.\Utils\Utils.java	/^    public static String[] getUUID(int number){ $/;"	m	class:Utils
+getView	.\Main\MySimpleAdapter.java	/^	public View getView(int position, View convertView, ViewGroup parent) {$/;"	m	class:MySimpleAdapter
+getView	.\Main\PopupListAdapter.java	/^	public View getView(int position, View convertView, ViewGroup parent) {$/;"	m	class:PopupListAdapter
+getView	.\Main\SidelistAdapter.java	/^	public View getView(int position, View convertView, ViewGroup parent) {$/;"	m	class:SidelistAdapter
+habitCount	.\AGoodHabitPerMonthActivity.java	/^	private int habitCount;$/;"	f	class:AGoodHabitPerMonthActivity	file:
+habitCount	.\Main\Details.java	/^	private int habitCount;$/;"	f	class:Details	file:
+habitStatistics	.\Main\ShareCenter.java	/^	private ContentValues habitStatistics = new ContentValues();$/;"	f	class:ShareCenter	file:
+habitT	.\Main\AddHabit.java	/^	private EditText habitT;$/;"	f	class:AddHabit	file:
+habitTag1	.\Main\AddHabit.java	/^	private ImageView habitTag1;$/;"	f	class:AddHabit	file:
+habitTag2	.\Main\AddHabit.java	/^	private ImageView habitTag2;$/;"	f	class:AddHabit	file:
+habitTag3	.\Main\AddHabit.java	/^	private ImageView habitTag3;$/;"	f	class:AddHabit	file:
+habitTag4	.\Main\AddHabit.java	/^	private ImageView habitTag4;$/;"	f	class:AddHabit	file:
+habitTag5	.\Main\AddHabit.java	/^	private ImageView habitTag5;$/;"	f	class:AddHabit	file:
+habitTag6	.\Main\AddHabit.java	/^	private ImageView habitTag6;$/;"	f	class:AddHabit	file:
+habitTag7	.\Main\AddHabit.java	/^	private ImageView habitTag7;$/;"	f	class:AddHabit	file:
+habitTitle	.\Main\AddHabit.java	/^	private EditText habitTitle;$/;"	f	class:AddHabit	file:
+habit_0	.\Main\preference.java	/^	private TextView habit_0;$/;"	f	class:preference	file:
+habit_1	.\Main\preference.java	/^	private TextView habit_1;$/;"	f	class:preference	file:
+habit_2	.\Main\preference.java	/^	private TextView habit_2;$/;"	f	class:preference	file:
+habit_3	.\Main\preference.java	/^	private TextView habit_3;$/;"	f	class:preference	file:
+habit_4	.\Main\preference.java	/^	private TextView habit_4;$/;"	f	class:preference	file:
+habit_5	.\Main\preference.java	/^	private TextView habit_5;$/;"	f	class:preference	file:
+habit_6	.\Main\preference.java	/^	private TextView habit_6;$/;"	f	class:preference	file:
+habit_button_0	.\Main\preference.java	/^	private Button habit_button_0;$/;"	f	class:preference	file:
+habit_button_1	.\Main\preference.java	/^	private Button habit_button_1;$/;"	f	class:preference	file:
+habit_button_2	.\Main\preference.java	/^	private Button habit_button_2;$/;"	f	class:preference	file:
+habit_button_3	.\Main\preference.java	/^	private Button habit_button_3;$/;"	f	class:preference	file:
+habit_button_4	.\Main\preference.java	/^	private Button habit_button_4;$/;"	f	class:preference	file:
+habit_button_5	.\Main\preference.java	/^	private Button habit_button_5;$/;"	f	class:preference	file:
+habit_button_6	.\Main\preference.java	/^	private Button habit_button_6;$/;"	f	class:preference	file:
+handleMessage	.\Main\AddHabit.java	/^		public void handleMessage(Message msg) {$/;"	m	class:AddHabit.MyHandler
+handleMessage	.\Main\RecordHabit.java	/^		public void handleMessage(Message msg) {$/;"	m	class:RecordHabit.MyHandler
+handler	.\Authorize\RenrenAuth.java	/^	private Handler handler;$/;"	f	class:RenrenAuth	file:
+handler	.\Main\AddHabit.java	/^	private Handler handler;$/;"	f	class:AddHabit	file:
+handler	.\Main\RecordHabit.java	/^	private MyHandler handler;$/;"	f	class:RecordHabit	file:
+i	.\Main\AddHabit.java	/^	private Intent i = new Intent();$/;"	f	class:AddHabit	file:
+inTState	.\Main\Details.java	/^	private int inTState;$/;"	f	class:Details	file:
+inTState	.\Main\Habit.java	/^	public int inTState = HABIT_STATE_NOT_RECORDED;$/;"	f	class:Habit
+inTStateBoolean	.\Main\Habit.java	/^	public boolean inTStateBoolean = false;$/;"	f	class:Habit
+init	.\AGoodHabitPerMonthActivity.java	/^    private void init() {$/;"	m	class:AGoodHabitPerMonthActivity	file:
+init	.\CustomLayout\MyScrollLayout.java	/^	private void init(Context context)$/;"	m	class:MyScrollLayout	file:
+init	.\Main\Details.java	/^    private void init() {$/;"	m	class:Details	file:
+init	.\view\MyScrollLayout.java	/^	private void init(Context context)$/;"	m	class:MyScrollLayout	file:
+initView	.\Main\AddHabit.java	/^	private void initView() {$/;"	m	class:AddHabit	file:
+initView	.\Main\Details.java	/^	private void initView() {$/;"	m	class:Details	file:
+initView	.\Main\RecordHabit.java	/^	private void initView() {$/;"	m	class:RecordHabit	file:
+initView	.\Main\ShareCenter.java	/^	private void initView() {$/;"	m	class:ShareCenter	file:
+initView	.\Main\preference.java	/^    private void initView(){$/;"	m	class:preference	file:
+initViews	.\AGoodHabitPerMonthActivity.java	/^	private void initViews() {$/;"	m	class:AGoodHabitPerMonthActivity	file:
+initViews	.\Authorize\RenrenAuth.java	/^	private void initViews() {$/;"	m	class:RenrenAuth	file:
+initViews	.\Authorize\TAuth.java	/^	private void initViews() {$/;"	m	class:TAuth	file:
+initViews	.\Authorize\WeiboAuth.java	/^	private void initViews() {$/;"	m	class:WeiboAuth	file:
+insert	.\databases\HabitDatabase.java	/^	public boolean insert(Habit h, Message when, Context context) {$/;"	m	class:HabitDatabase
+insertIntoDatabase	.\Main\RecordHabit.java	/^	protected void insertIntoDatabase() {$/;"	m	class:RecordHabit
+insistDays	.\Main\Details.java	/^	private int insistDays;$/;"	f	class:Details	file:
+judgeValidity	.\Main\AddHabit.java	/^	private boolean judgeValidity() {$/;"	m	class:AddHabit	file:
+judgeValidity	.\Main\RecordHabit.java	/^	protected boolean judgeValidity() {$/;"	m	class:RecordHabit
+judgeValidity	.\Main\ShareCenter.java	/^	protected boolean judgeValidity() {$/;"	m	class:ShareCenter
+lastPage	.\Main\RecordHabit.java	/^	private Bundle lastPage;$/;"	f	class:RecordHabit	file:
+latestState	.\Main\Habit.java	/^	public int latestState = HABIT_STATE_NOT_RECORDED;$/;"	f	class:Habit
+latestState	.\Main\RecordHabit.java	/^	private int latestState = HABIT_STATE_RECORD;$/;"	f	class:RecordHabit	file:
+latestStateBoolean	.\Main\Habit.java	/^	public boolean latestStateBoolean = false;$/;"	f	class:Habit
+layoutID	.\Main\MySimpleAdapter.java	/^    private int layoutID;$/;"	f	class:MySimpleAdapter	file:
+layoutID	.\Main\PopupListAdapter.java	/^    private int layoutID;$/;"	f	class:PopupListAdapter	file:
+layoutID	.\Main\SidelistAdapter.java	/^    private int layoutID;$/;"	f	class:SidelistAdapter	file:
+list	.\Main\MySimpleAdapter.java	/^    private List<Map<String, Object>> list;$/;"	f	class:MySimpleAdapter	file:
+list	.\Main\PopupListAdapter.java	/^    private List<Map<String, Object>> list;$/;"	f	class:PopupListAdapter	file:
+list	.\Main\SidelistAdapter.java	/^    private List<Map<String, Object>> list;$/;"	f	class:SidelistAdapter	file:
+listData	.\AGoodHabitPerMonthActivity.java	/^	private List<Map<String, Object>> listData $/;"	f	class:AGoodHabitPerMonthActivity	file:
+listData	.\Main\Details.java	/^    private List<Map<String, Object>> listData $/;"	f	class:Details	file:
+listItemAdapter	.\AGoodHabitPerMonthActivity.java	/^	SimpleAdapter listItemAdapter;$/;"	f	class:AGoodHabitPerMonthActivity
+listView	.\AGoodHabitPerMonthActivity.java	/^	private ListView listView;$/;"	f	class:AGoodHabitPerMonthActivity	file:
+listView	.\Main\Details.java	/^	private ListView listView; \/\/ 声明列表视图对象$/;"	f	class:Details	file:
+mActivity	.\Main\Share2RenrenRunnable.java	/^	private Activity mActivity;$/;"	f	class:Share2RenrenRunnable	file:
+mAddHabit	.\Main\AddHabit.java	/^	private AddHabit mAddHabit = this;$/;"	f	class:AddHabit	file:
+mBroadcastreceiver	.\Service\TimeListenerSvc.java	/^	private BroadcastReceiver mBroadcastreceiver;$/;"	f	class:TimeListenerSvc	file:
+mButtonImage	.\CustomLayout\MyImageButton.java	/^	private ImageView mButtonImage = null; $/;"	f	class:MyImageButton	file:
+mButtonText	.\CustomLayout\MyImageButton.java	/^	private TextView mButtonText = null; $/;"	f	class:MyImageButton	file:
+mContent	.\Main\Share2RenrenRunnable.java	/^	private String mContent;$/;"	f	class:Share2RenrenRunnable	file:
+mContent	.\Main\Share2WeiboRunnable.java	/^	private String mContent;$/;"	f	class:Share2WeiboRunnable	file:
+mContext	.\Main\Share2RenrenRunnable.java	/^	private Context mContext;$/;"	f	class:Share2RenrenRunnable	file:
+mContext	.\Main\Share2WeiboRunnable.java	/^	private Context mContext;$/;"	f	class:Share2WeiboRunnable	file:
+mContext	.\databases\HabitDatabase.java	/^	private Context mContext;$/;"	f	class:HabitDatabase	file:
+mCurScreen	.\CustomLayout\MyScrollLayout.java	/^    private int mCurScreen;    						    $/;"	f	class:MyScrollLayout	file:
+mCurScreen	.\view\MyScrollLayout.java	/^    private int mCurScreen;    						    $/;"	f	class:MyScrollLayout	file:
+mDefaultScreen	.\CustomLayout\MyScrollLayout.java	/^	private int mDefaultScreen = 1;    						 $/;"	f	class:MyScrollLayout	file:
+mDefaultScreen	.\view\MyScrollLayout.java	/^	private int mDefaultScreen = 1;    						 $/;"	f	class:MyScrollLayout	file:
+mHandler	.\Main\Share2RenrenRunnable.java	/^	private Handler mHandler;$/;"	f	class:Share2RenrenRunnable	file:
+mHandler	.\Main\Share2WeiboRunnable.java	/^	private Handler mHandler;$/;"	f	class:Share2WeiboRunnable	file:
+mInflater	.\Main\MySimpleAdapter.java	/^	private LayoutInflater mInflater;$/;"	f	class:MySimpleAdapter	file:
+mInflater	.\Main\PopupListAdapter.java	/^	private LayoutInflater mInflater;$/;"	f	class:PopupListAdapter	file:
+mInflater	.\Main\SidelistAdapter.java	/^	private LayoutInflater mInflater;$/;"	f	class:SidelistAdapter	file:
+mLastMotionX	.\CustomLayout\MyScrollLayout.java	/^    private float mLastMotionX;     $/;"	f	class:MyScrollLayout	file:
+mLastMotionX	.\view\MyScrollLayout.java	/^    private float mLastMotionX;     $/;"	f	class:MyScrollLayout	file:
+mLastMotionY	.\CustomLayout\MyScrollLayout.java	/^    private float mLastMotionY; $/;"	f	class:MyScrollLayout	file:
+mLastMotionY	.\view\MyScrollLayout.java	/^    private float mLastMotionY; $/;"	f	class:MyScrollLayout	file:
+mRecordHabit	.\Main\RecordHabit.java	/^	private RecordHabit mRecordHabit = this;$/;"	f	class:RecordHabit	file:
+mRenren	.\Authorize\RenrenAuth.java	/^	private Renren mRenren;$/;"	f	class:RenrenAuth	file:
+mRenren	.\Main\Share2RenrenRunnable.java	/^	private Renren mRenren;$/;"	f	class:Share2RenrenRunnable	file:
+mRenren	.\Main\ShareCenter.java	/^	private Renren mRenren;$/;"	f	class:ShareCenter	file:
+mRenren	.\Main\preference.java	/^	private Renren mRenren;$/;"	f	class:preference	file:
+mScrollLayout	.\AGoodHabitPerMonthActivity.java	/^	private MyScrollLayout mScrollLayout;	$/;"	f	class:AGoodHabitPerMonthActivity	file:
+mScrollLayout	.\Main\Details.java	/^	private MyScrollLayout mScrollLayout;	$/;"	f	class:Details	file:
+mScroller	.\CustomLayout\MyScrollLayout.java	/^    private Scroller  mScroller;						\/\/ 滑动控制器	$/;"	f	class:MyScrollLayout	file:
+mScroller	.\view\MyScrollLayout.java	/^    private Scroller  mScroller;						\/\/ 滑动控制器	$/;"	f	class:MyScrollLayout	file:
+mShareActivity	.\Main\Share2WeiboRunnable.java	/^	private Activity mShareActivity;$/;"	f	class:Share2WeiboRunnable	file:
+mVelocityTracker	.\CustomLayout\MyScrollLayout.java	/^    private VelocityTracker mVelocityTracker;  			\/\/ 用于判断甩动手势    $/;"	f	class:MyScrollLayout	file:
+mVelocityTracker	.\view\MyScrollLayout.java	/^    private VelocityTracker mVelocityTracker;  			\/\/ 用于判断甩动手势    $/;"	f	class:MyScrollLayout	file:
+mViewCount	.\AGoodHabitPerMonthActivity.java	/^	private int mViewCount;	$/;"	f	class:AGoodHabitPerMonthActivity	file:
+mViewCount	.\Main\Details.java	/^	private int mViewCount;	$/;"	f	class:Details	file:
+mWeibo	.\Authorize\WeiboAuth.java	/^	private Weibo mWeibo = Weibo.getInstance();$/;"	f	class:WeiboAuth	file:
+mainFastRecord	.\AGoodHabitPerMonthActivity.java	/^	private ImageButton mainFastRecord;$/;"	f	class:AGoodHabitPerMonthActivity	file:
+mainFastRecordPlus	.\AGoodHabitPerMonthActivity.java	/^	private ImageView mainFastRecordPlus;$/;"	f	class:AGoodHabitPerMonthActivity	file:
+makePopupWindow	.\AGoodHabitPerMonthActivity.java	/^	protected void makePopupWindow(Context context) {$/;"	m	class:AGoodHabitPerMonthActivity
+monthlyRateNum	.\AGoodHabitPerMonthActivity.java	/^	private TextView monthlyRateNum;$/;"	f	class:AGoodHabitPerMonthActivity	file:
+monthlyRateNum	.\Main\Details.java	/^	private TextView monthlyRateNum;$/;"	f	class:Details	file:
+moved	.\AGoodHabitPerMonthActivity.java	/^	public static boolean moved;$/;"	f	class:AGoodHabitPerMonthActivity
+moved	.\Main\Details.java	/^	public static boolean moved;$/;"	f	class:Details
+onActivityResult	.\AGoodHabitPerMonthActivity.java	/^	protected void onActivityResult(int requestCode, int resultCode, Intent data) {$/;"	m	class:AGoodHabitPerMonthActivity
+onActivityResult	.\Authorize\TAuth.java	/^	protected void onActivityResult(int requestCode, int resultCode, Intent data) {$/;"	m	class:TAuth
+onActivityResult	.\Main\AddHabit.java	/^	protected void onActivityResult(int requestCode, int resultCode, Intent data) {$/;"	m	class:AddHabit
+onActivityResult	.\Main\Details.java	/^	protected void onActivityResult(int requestCode, int resultCode, Intent data) {$/;"	m	class:Details
+onActivityResult	.\Main\preference.java	/^	protected void onActivityResult(int requestCode, int resultCode, Intent data) {$/;"	m	class:preference
+onBackPressed	.\AGoodHabitPerMonthActivity.java	/^	public void onBackPressed() {$/;"	m	class:AGoodHabitPerMonthActivity
+onBind	.\Service\DataRefreshSvc.java	/^	public IBinder onBind(Intent intent) {$/;"	m	class:DataRefreshSvc
+onBind	.\Service\TimeListenerSvc.java	/^	public IBinder onBind(Intent intent) {$/;"	m	class:TimeListenerSvc
+onButtonClicked	.\AGoodHabitPerMonthActivity.java	/^	private OnClickListener onButtonClicked = new OnClickListener() {$/;"	f	class:AGoodHabitPerMonthActivity	file:
+onCancel	.\Authorize\WeiboAuth.java	/^		public void onCancel() {$/;"	m	class:WeiboAuth.AuthDialogListener
+onCancel	.\Main\Share2WeiboRunnable.java	/^		public void onCancel() {$/;"	m	class:Share2WeiboRunnable.AuthDialogListener
+onCancel	.\Main\ShareCenter.java	/^		public void onCancel() {$/;"	m	class:ShareCenter.AuthDialogListener
+onChangeShareState	.\Main\RecordHabit.java	/^	private void onChangeShareState(int when) {$/;"	m	class:RecordHabit	file:
+onChangeShareState	.\Main\ShareCenter.java	/^	private void onChangeShareState(int when) {$/;"	m	class:ShareCenter	file:
+onComplete	.\Authorize\WeiboAuth.java	/^		public void onComplete(Bundle values) {$/;"	m	class:WeiboAuth.AuthDialogListener
+onComplete	.\Main\Share2WeiboRunnable.java	/^		public void onComplete(Bundle values) {$/;"	m	class:Share2WeiboRunnable.AuthDialogListener
+onComplete	.\Main\Share2WeiboRunnable.java	/^	public void onComplete(String response) {$/;"	m	class:Share2WeiboRunnable
+onComplete	.\Main\ShareCenter.java	/^		public void onComplete(Bundle values) {$/;"	m	class:ShareCenter.AuthDialogListener
+onComplete	.\Main\ShareCenter.java	/^	public void onComplete(String response) {$/;"	m	class:ShareCenter
+onCreate	.\AGoodHabitPerMonthActivity.java	/^    public void onCreate(Bundle savedInstanceState) {$/;"	m	class:AGoodHabitPerMonthActivity
+onCreate	.\Authorize\RenrenAuth.java	/^	protected void onCreate(Bundle savedInstanceState) {$/;"	m	class:RenrenAuth
+onCreate	.\Authorize\TAuth.java	/^	protected void onCreate(Bundle savedInstanceState) {$/;"	m	class:TAuth
+onCreate	.\Authorize\WeiboAuth.java	/^	protected void onCreate(Bundle savedInstanceState) {$/;"	m	class:WeiboAuth
+onCreate	.\Main\AddHabit.java	/^	protected void onCreate(Bundle savedInstanceState) {$/;"	m	class:AddHabit
+onCreate	.\Main\Details.java	/^	protected void onCreate(Bundle savedInstanceState) {$/;"	m	class:Details
+onCreate	.\Main\RecordHabit.java	/^	protected void onCreate(Bundle savedInstanceState) {$/;"	m	class:RecordHabit
+onCreate	.\Main\ShareCenter.java	/^	protected void onCreate(Bundle savedInstanceState) {$/;"	m	class:ShareCenter
+onCreate	.\Main\preference.java	/^    public void onCreate(Bundle savedInstanceState) {$/;"	m	class:preference
+onCreate	.\Service\DataRefreshSvc.java	/^	public void onCreate() {$/;"	m	class:DataRefreshSvc
+onCreate	.\Service\TimeListenerSvc.java	/^	public void onCreate() {$/;"	m	class:TimeListenerSvc
+onCreate	.\databases\HabitDatabase.java	/^	public void onCreate(SQLiteDatabase db) {$/;"	m	class:HabitDatabase
+onDestroy	.\AGoodHabitPerMonthActivity.java	/^	protected void onDestroy() {$/;"	m	class:AGoodHabitPerMonthActivity
+onDestroy	.\Main\Details.java	/^	protected void onDestroy() {$/;"	m	class:Details
+onDestroy	.\Service\DataRefreshSvc.java	/^	public void onDestroy() {$/;"	m	class:DataRefreshSvc
+onDestroy	.\Service\TimeListenerSvc.java	/^	public void onDestroy() {$/;"	m	class:TimeListenerSvc
+onError	.\Authorize\WeiboAuth.java	/^		public void onError(DialogError e) {$/;"	m	class:WeiboAuth.AuthDialogListener
+onError	.\Main\Share2WeiboRunnable.java	/^		public void onError(DialogError e) {$/;"	m	class:Share2WeiboRunnable.AuthDialogListener
+onError	.\Main\Share2WeiboRunnable.java	/^	public void onError(WeiboException e) {$/;"	m	class:Share2WeiboRunnable
+onError	.\Main\ShareCenter.java	/^		public void onError(DialogError e) {$/;"	m	class:ShareCenter.AuthDialogListener
+onError	.\Main\ShareCenter.java	/^	public void onError(WeiboException e) {$/;"	m	class:ShareCenter
+onIOException	.\Main\Share2WeiboRunnable.java	/^	public void onIOException(IOException e) {$/;"	m	class:Share2WeiboRunnable
+onIOException	.\Main\ShareCenter.java	/^	public void onIOException(IOException e) {$/;"	m	class:ShareCenter
+onKeyDown	.\AGoodHabitPerMonthActivity.java	/^	public boolean onKeyDown(int keyCode, KeyEvent event) {$/;"	m	class:AGoodHabitPerMonthActivity
+onKeyDown	.\Main\Details.java	/^	public boolean onKeyDown(int keyCode, KeyEvent event) {$/;"	m	class:Details
+onLayout	.\CustomLayout\MyScrollLayout.java	/^	protected void onLayout(boolean changed, int l, int t, int r, int b) {$/;"	m	class:MyScrollLayout
+onLayout	.\view\MyScrollLayout.java	/^	protected void onLayout(boolean changed, int l, int t, int r, int b) {$/;"	m	class:MyScrollLayout
+onMeasure	.\CustomLayout\MyScrollLayout.java	/^	protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {$/;"	m	class:MyScrollLayout
+onMeasure	.\view\MyScrollLayout.java	/^	protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {$/;"	m	class:MyScrollLayout
+onPause	.\AGoodHabitPerMonthActivity.java	/^	protected void onPause() {$/;"	m	class:AGoodHabitPerMonthActivity
+onPause	.\Authorize\RenrenAuth.java	/^	protected void onPause() {$/;"	m	class:RenrenAuth
+onPause	.\Authorize\WeiboAuth.java	/^	protected void onPause() {$/;"	m	class:WeiboAuth
+onPause	.\Main\AddHabit.java	/^	protected void onPause() {$/;"	m	class:AddHabit
+onPause	.\Main\Details.java	/^	protected void onPause() {$/;"	m	class:Details
+onPostExecute	.\Service\DataRefreshSvc.java	/^		protected void onPostExecute(Boolean result) {$/;"	m	class:DataRefreshSvc.asyncUpdate
+onPreExecute	.\Service\DataRefreshSvc.java	/^		protected void onPreExecute() {$/;"	m	class:DataRefreshSvc.asyncUpdate
+onReceive	.\Broadcast\MyBroadcastReceiver.java	/^	public void onReceive(Context context, Intent intent) {$/;"	m	class:MyBroadcastReceiver
+onRestart	.\AGoodHabitPerMonthActivity.java	/^	protected void onRestart() {$/;"	m	class:AGoodHabitPerMonthActivity
+onRestart	.\Main\Details.java	/^	protected void onRestart() {$/;"	m	class:Details
+onResume	.\AGoodHabitPerMonthActivity.java	/^	protected void onResume() {$/;"	m	class:AGoodHabitPerMonthActivity
+onResume	.\Authorize\RenrenAuth.java	/^	protected void onResume() {$/;"	m	class:RenrenAuth
+onResume	.\Authorize\WeiboAuth.java	/^	protected void onResume() {$/;"	m	class:WeiboAuth
+onResume	.\Main\AddHabit.java	/^	protected void onResume() {$/;"	m	class:AddHabit
+onResume	.\Main\Details.java	/^    protected void onResume() {$/;"	m	class:Details
+onStart	.\Service\DataRefreshSvc.java	/^	public void onStart(Intent intent, int startId) {$/;"	m	class:DataRefreshSvc
+onStart	.\Service\TimeListenerSvc.java	/^	public void onStart(Intent intent, int startId) {$/;"	m	class:TimeListenerSvc
+onStartCommand	.\Service\TimeListenerSvc.java	/^	public int onStartCommand(Intent intent, int flags, int startId) {$/;"	m	class:TimeListenerSvc
+onTouchEvent	.\AGoodHabitPerMonthActivity.java	/^	public boolean onTouchEvent(MotionEvent event) {$/;"	m	class:AGoodHabitPerMonthActivity
+onTouchEvent	.\CustomLayout\MyScrollLayout.java	/^	public boolean onTouchEvent(MotionEvent event) {$/;"	m	class:MyScrollLayout
+onTouchEvent	.\view\MyScrollLayout.java	/^	public boolean onTouchEvent(MotionEvent event) {$/;"	m	class:MyScrollLayout
+onUnbind	.\Service\DataRefreshSvc.java	/^	public boolean onUnbind(Intent intent) {$/;"	m	class:DataRefreshSvc
+onUnbind	.\Service\TimeListenerSvc.java	/^	public boolean onUnbind(Intent intent) {$/;"	m	class:TimeListenerSvc
+onUpgrade	.\databases\HabitDatabase.java	/^	public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {$/;"	m	class:HabitDatabase
+onWeiboException	.\Authorize\WeiboAuth.java	/^		public void onWeiboException(WeiboException e) {$/;"	m	class:WeiboAuth.AuthDialogListener
+onWeiboException	.\Main\Share2WeiboRunnable.java	/^		public void onWeiboException(WeiboException e) {$/;"	m	class:Share2WeiboRunnable.AuthDialogListener
+onWeiboException	.\Main\ShareCenter.java	/^		public void onWeiboException(WeiboException e) {$/;"	m	class:ShareCenter.AuthDialogListener
+org.dian.kiyan	.\AGoodHabitPerMonthActivity.java	/^package org.dian.kiyan;$/;"	p
+org.dian.kiyan.Authorize	.\Authorize\AuthorizeCenter.java	/^package org.dian.kiyan.Authorize;$/;"	p
+org.dian.kiyan.Authorize	.\Authorize\RenrenAuth.java	/^package org.dian.kiyan.Authorize;$/;"	p
+org.dian.kiyan.Authorize	.\Authorize\TAuth.java	/^package org.dian.kiyan.Authorize;$/;"	p
+org.dian.kiyan.Authorize	.\Authorize\WeiboAuth.java	/^package org.dian.kiyan.Authorize;$/;"	p
+org.dian.kiyan.Broadcast	.\Broadcast\MyBroadcastReceiver.java	/^package org.dian.kiyan.Broadcast;$/;"	p
+org.dian.kiyan.Constants	.\Constants\Constants.java	/^package org.dian.kiyan.Constants;$/;"	p
+org.dian.kiyan.CustomLayout	.\CustomLayout\MyImageButton.java	/^package org.dian.kiyan.CustomLayout;$/;"	p
+org.dian.kiyan.CustomLayout	.\CustomLayout\MyScrollLayout.java	/^package org.dian.kiyan.CustomLayout;$/;"	p
+org.dian.kiyan.Main	.\Main\AddHabit.java	/^package org.dian.kiyan.Main;$/;"	p
+org.dian.kiyan.Main	.\Main\Details.java	/^package org.dian.kiyan.Main;$/;"	p
+org.dian.kiyan.Main	.\Main\Habit.java	/^package org.dian.kiyan.Main;$/;"	p
+org.dian.kiyan.Main	.\Main\MySimpleAdapter.java	/^package org.dian.kiyan.Main;$/;"	p
+org.dian.kiyan.Main	.\Main\PopupListAdapter.java	/^package org.dian.kiyan.Main;$/;"	p
+org.dian.kiyan.Main	.\Main\RecordHabit.java	/^package org.dian.kiyan.Main;$/;"	p
+org.dian.kiyan.Main	.\Main\Share2RenrenRunnable.java	/^package org.dian.kiyan.Main;$/;"	p
+org.dian.kiyan.Main	.\Main\Share2WeiboRunnable.java	/^package org.dian.kiyan.Main;$/;"	p
+org.dian.kiyan.Main	.\Main\ShareCenter.java	/^package org.dian.kiyan.Main;$/;"	p
+org.dian.kiyan.Main	.\Main\SidelistAdapter.java	/^package org.dian.kiyan.Main;$/;"	p
+org.dian.kiyan.Main	.\Main\ToggleStatePerDaySvc.java	/^package org.dian.kiyan.Main;$/;"	p
+org.dian.kiyan.Main	.\Main\preference.java	/^package org.dian.kiyan.Main;$/;"	p
+org.dian.kiyan.Service	.\Service\DataRefreshSvc.java	/^package org.dian.kiyan.Service;$/;"	p
+org.dian.kiyan.Service	.\Service\TimeListenerSvc.java	/^package org.dian.kiyan.Service;$/;"	p
+org.dian.kiyan.Utils	.\Utils\Utils.java	/^package org.dian.kiyan.Utils;$/;"	p
+org.dian.kiyan.databases	.\databases\HabitDatabase.java	/^package org.dian.kiyan.databases;$/;"	p
+org.dian.kiyan.view	.\view\MyScrollLayout.java	/^package org.dian.kiyan.view;$/;"	p
+popupAdapter	.\AGoodHabitPerMonthActivity.java	/^	private PopupListAdapter popupAdapter;$/;"	f	class:AGoodHabitPerMonthActivity	file:
+popupWindowList	.\AGoodHabitPerMonthActivity.java	/^	private ListView popupWindowList;$/;"	f	class:AGoodHabitPerMonthActivity	file:
+popuplistData	.\AGoodHabitPerMonthActivity.java	/^	private List<Map<String, Object>> popuplistData $/;"	f	class:AGoodHabitPerMonthActivity	file:
+preference	.\Main\preference.java	/^public class preference extends Activity{$/;"	c
+prepareData	.\AGoodHabitPerMonthActivity.java	/^	private void prepareData() {$/;"	m	class:AGoodHabitPerMonthActivity	file:
+prepareData	.\Main\AddHabit.java	/^	private void prepareData() {$/;"	m	class:AddHabit	file:
+prepareData	.\Main\Details.java	/^	private void prepareData() {$/;"	m	class:Details	file:
+prepareData	.\Main\ShareCenter.java	/^	private void prepareData() {$/;"	m	class:ShareCenter	file:
+prepareData	.\Main\preference.java	/^    private void prepareData() {$/;"	m	class:preference	file:
+prepareInfo	.\Main\RecordHabit.java	/^	private void prepareInfo() {$/;"	m	class:RecordHabit	file:
+process	.\Main\AddHabit.java	/^	protected String process(String words) {$/;"	m	class:AddHabit
+process	.\Main\RecordHabit.java	/^	private void process(String words) {$/;"	m	class:RecordHabit	file:
+processAllMonthlyRateNum	.\AGoodHabitPerMonthActivity.java	/^	private String processAllMonthlyRateNum() {$/;"	m	class:AGoodHabitPerMonthActivity	file:
+processBriefState	.\Main\Details.java	/^	private String processBriefState() {$/;"	m	class:Details	file:
+processContent	.\Main\ShareCenter.java	/^	protected void processContent() {$/;"	m	class:ShareCenter
+processContent	.\Utils\Utils.java	/^    protected void processContent(ContentValues habitStatistics, $/;"	m	class:Utils
+processDate	.\AGoodHabitPerMonthActivity.java	/^	private String processDate() {$/;"	m	class:AGoodHabitPerMonthActivity	file:
+processDate	.\Main\Details.java	/^	private String processDate() {$/;"	m	class:Details	file:
+processDate	.\Main\RecordHabit.java	/^	private String processDate() {$/;"	m	class:RecordHabit	file:
+processDetailState	.\AGoodHabitPerMonthActivity.java	/^	private String processDetailState(int asInteger, String title) {$/;"	m	class:AGoodHabitPerMonthActivity	file:
+processDetailState	.\Main\Details.java	/^	private String processDetailState(int asInteger) {$/;"	m	class:Details	file:
+processDetailToday	.\Main\Details.java	/^	private String processDetailToday() {$/;"	m	class:Details	file:
+processDetailTodayColor	.\Main\Details.java	/^	private int processDetailTodayColor() {$/;"	m	class:Details	file:
+processMonthlyRate	.\Main\Details.java	/^	private String processMonthlyRate() {$/;"	m	class:Details	file:
+processSingleMonthlyRateNum	.\Main\Details.java	/^	private String processSingleMonthlyRateNum() {$/;"	m	class:Details	file:
+processTag	.\Main\Details.java	/^	private int processTag() {$/;"	m	class:Details	file:
+processTime	.\AGoodHabitPerMonthActivity.java	/^	private String processTime() {$/;"	m	class:AGoodHabitPerMonthActivity	file:
+processTime	.\Main\Details.java	/^	private String processTime() {$/;"	m	class:Details	file:
+processTimestamp	.\AGoodHabitPerMonthActivity.java	/^	private String processTimestamp(String timestamp) {$/;"	m	class:AGoodHabitPerMonthActivity	file:
+processTimestamp	.\Main\Details.java	/^	private String processTimestamp(String timestamp) {$/;"	m	class:Details	file:
+pushIntoHabitDatabase	.\Main\AddHabit.java	/^	private void pushIntoHabitDatabase() {$/;"	m	class:AddHabit	file:
+pw	.\AGoodHabitPerMonthActivity.java	/^	public static PopupWindow pw;$/;"	f	class:AGoodHabitPerMonthActivity
+query	.\databases\HabitDatabase.java	/^	public Bundle query(String uuid) {$/;"	m	class:HabitDatabase
+queryAll	.\databases\HabitDatabase.java	/^	public Bundle queryAll() {$/;"	m	class:HabitDatabase
+queryLatest	.\databases\HabitDatabase.java	/^	public HashMap<String, Object> queryLatest() {$/;"	m	class:HabitDatabase
+queryLatestWithUUID	.\databases\HabitDatabase.java	/^	public ContentValues queryLatestWithUUID(String uuid) {$/;"	m	class:HabitDatabase
+queryStatistics	.\databases\HabitDatabase.java	/^	public ContentValues queryStatistics(String uuid) {$/;"	m	class:HabitDatabase
+queryStatistics	.\databases\HabitDatabase.java	/^	public float[] queryStatistics() {$/;"	m	class:HabitDatabase
+queryTotalCount	.\databases\HabitDatabase.java	/^	public int queryTotalCount() {$/;"	m	class:HabitDatabase
+ral	.\Main\Share2RenrenRunnable.java	/^	private RenrenAuthListener ral = new RenrenAuthListener() {$/;"	f	class:Share2RenrenRunnable	file:
+readStream	.\Main\AddHabit.java	/^	public static byte[] readStream(InputStream inStream) throws Exception {$/;"	m	class:AddHabit
+recordWords	.\Main\RecordHabit.java	/^	private EditText recordWords;$/;"	f	class:RecordHabit	file:
+reference_Adapter	.\Main\preference.java	/^	private MySimpleAdapter reference_Adapter; $/;"	f	class:preference	file:
+reference_ListData	.\Main\preference.java	/^	private List<Map<String, Object>> reference_ListData $/;"	f	class:preference	file:
+reference_habit	.\Main\preference.java	/^	private ListView reference_habit;$/;"	f	class:preference	file:
+reference_return	.\Main\preference.java	/^	private ImageButton reference_return;$/;"	f	class:preference	file:
+refreshView	.\AGoodHabitPerMonthActivity.java	/^	private void refreshView() {$/;"	m	class:AGoodHabitPerMonthActivity	file:
+refreshView	.\AGoodHabitPerMonthActivity.java	/^	private void refreshView(int temp) {$/;"	m	class:AGoodHabitPerMonthActivity	file:
+refreshView	.\Main\Details.java	/^	private void refreshView() {$/;"	m	class:Details	file:
+relative	.\Main\preference.java	/^	private RelativeLayout relative;$/;"	f	class:preference	file:
+removeView	.\Main\preference.java	/^    private void removeView(){$/;"	m	class:preference	file:
+renrenAuth	.\Main\AddHabit.java	/^	private boolean renrenAuth;$/;"	f	class:AddHabit	file:
+renrenAuth	.\Main\RecordHabit.java	/^	private boolean renrenAuth;$/;"	f	class:RecordHabit	file:
+renrenAuthorization	.\Main\Share2RenrenRunnable.java	/^	private boolean renrenAuthorization = false;$/;"	f	class:Share2RenrenRunnable	file:
+renrenAuthorization	.\Main\ShareCenter.java	/^	private boolean renrenAuthorization;$/;"	f	class:ShareCenter	file:
+renrenShareState	.\Main\ShareCenter.java	/^	private int renrenShareState = STATE_NOT_PUBLISH;$/;"	f	class:ShareCenter	file:
+renren_clean	.\Main\preference.java	/^	private Button renren_clean;$/;"	f	class:preference	file:
+resizeBitmap	.\Main\Details.java	/^    public Bitmap resizeBitmap(Bitmap bitmap, int maxWidth, int maxHeight) {$/;"	m	class:Details
+return2Main	.\Main\AddHabit.java	/^	protected void return2Main() {$/;"	m	class:AddHabit
+run	.\Main\Share2RenrenRunnable.java	/^	public void run() {$/;"	m	class:Share2RenrenRunnable
+run	.\Main\Share2WeiboRunnable.java	/^	public void run() {$/;"	m	class:Share2WeiboRunnable
+screenHeight	.\AGoodHabitPerMonthActivity.java	/^	public static int screenHeight;$/;"	f	class:AGoodHabitPerMonthActivity
+screenWidth	.\AGoodHabitPerMonthActivity.java	/^	public static int screenWidth;$/;"	f	class:AGoodHabitPerMonthActivity
+seeTotalCount	.\Main\AddHabit.java	/^	private void seeTotalCount() {$/;"	m	class:AddHabit	file:
+setImageResource	.\CustomLayout\MyImageButton.java	/^	public void setImageResource(int resId) { $/;"	m	class:MyImageButton
+setText	.\CustomLayout\MyImageButton.java	/^	public void setText(CharSequence buttonText) { $/;"	m	class:MyImageButton
+setText	.\CustomLayout\MyImageButton.java	/^	public void setText(int resId) { $/;"	m	class:MyImageButton
+setTextColor	.\CustomLayout\MyImageButton.java	/^	public void setTextColor(int color) { $/;"	m	class:MyImageButton
+settings	.\Main\AddHabit.java	/^	private SharedPreferences settings;$/;"	f	class:AddHabit	file:
+settings	.\Main\RecordHabit.java	/^	private SharedPreferences settings;$/;"	f	class:RecordHabit	file:
+settings	.\Main\Share2RenrenRunnable.java	/^	private SharedPreferences settings;$/;"	f	class:Share2RenrenRunnable	file:
+settings	.\Main\Share2WeiboRunnable.java	/^	private SharedPreferences settings;$/;"	f	class:Share2WeiboRunnable	file:
+settings	.\Main\ShareCenter.java	/^	private SharedPreferences settings;$/;"	f	class:ShareCenter	file:
+share	.\AGoodHabitPerMonthActivity.java	/^	private ImageButton share;$/;"	f	class:AGoodHabitPerMonthActivity	file:
+share2renren	.\Main\ShareCenter.java	/^	private void share2renren(String content) {$/;"	m	class:ShareCenter	file:
+share2weibo	.\Main\Share2WeiboRunnable.java	/^	private void share2weibo(String content) {$/;"	m	class:Share2WeiboRunnable	file:
+share2weibo	.\Main\ShareCenter.java	/^	private void share2weibo(String content) {$/;"	m	class:ShareCenter	file:
+shareImage	.\Main\ShareCenter.java	/^	private ImageView shareImage;$/;"	f	class:ShareCenter	file:
+shareText	.\Main\ShareCenter.java	/^	private EditText shareText;$/;"	f	class:ShareCenter	file:
+shareToRenren	.\Main\AddHabit.java	/^	private int shareToRenren = STATE_NOT_PUBLISH;$/;"	f	class:AddHabit	file:
+shareToRenren	.\Main\Habit.java	/^	public int shareToRenren = STATE_NOT_PUBLISH;$/;"	f	class:Habit
+shareToRenren	.\Main\RecordHabit.java	/^	private int shareToRenren = STATE_NOT_PUBLISH;$/;"	f	class:RecordHabit	file:
+shareToRenren	.\Main\ShareCenter.java	/^	private ImageButton shareToRenren;$/;"	f	class:ShareCenter	file:
+shareToRenrenBoolean	.\Main\Habit.java	/^	public boolean shareToRenrenBoolean = false;$/;"	f	class:Habit
+shareToWeibo	.\Main\AddHabit.java	/^	private int shareToWeibo = STATE_NOT_PUBLISH;$/;"	f	class:AddHabit	file:
+shareToWeibo	.\Main\Habit.java	/^	public int shareToWeibo = STATE_NOT_PUBLISH;$/;"	f	class:Habit
+shareToWeibo	.\Main\RecordHabit.java	/^	private int shareToWeibo = STATE_NOT_PUBLISH;$/;"	f	class:RecordHabit	file:
+shareToWeibo	.\Main\ShareCenter.java	/^	private ImageButton shareToWeibo;$/;"	f	class:ShareCenter	file:
+shareToWeiboBoolean	.\Main\Habit.java	/^	public boolean shareToWeiboBoolean = false;$/;"	f	class:Habit
+showExit	.\AGoodHabitPerMonthActivity.java	/^	public static void showExit(final Activity a){$/;"	m	class:AGoodHabitPerMonthActivity
+showMainFastRecordEnterAnimation	.\AGoodHabitPerMonthActivity.java	/^	private void showMainFastRecordEnterAnimation() {$/;"	m	class:AGoodHabitPerMonthActivity	file:
+showMainFastRecordExitAnimation	.\AGoodHabitPerMonthActivity.java	/^	private void showMainFastRecordExitAnimation() {$/;"	m	class:AGoodHabitPerMonthActivity	file:
+showShareDialog	.\Main\AddHabit.java	/^	private void showShareDialog() {$/;"	m	class:AddHabit	file:
+sideList	.\Main\Details.java	/^	private ListView sideList;$/;"	f	class:Details	file:
+sideListAdapter	.\AGoodHabitPerMonthActivity.java	/^	private SidelistAdapter sideListAdapter; $/;"	f	class:AGoodHabitPerMonthActivity	file:
+sideListData	.\AGoodHabitPerMonthActivity.java	/^	private List<Map<String, Object>> sideListData $/;"	f	class:AGoodHabitPerMonthActivity	file:
+sideListData	.\Main\Details.java	/^	private List<Map<String, Object>> sideListData $/;"	f	class:Details	file:
+sideListView	.\AGoodHabitPerMonthActivity.java	/^	private ListView sideListView;$/;"	f	class:AGoodHabitPerMonthActivity	file:
+sideListdapter	.\Main\Details.java	/^	private SidelistAdapter sideListdapter; $/;"	f	class:Details	file:
+sinaAuthorization	.\Main\Share2WeiboRunnable.java	/^	private boolean sinaAuthorization = false;$/;"	f	class:Share2WeiboRunnable	file:
+sinaAuthorization	.\Main\ShareCenter.java	/^	private boolean sinaAuthorization = false;$/;"	f	class:ShareCenter	file:
+sinaAuthorization	.\Main\preference.java	/^	private boolean sinaAuthorization = false;$/;"	f	class:preference	file:
+sinaShareState	.\Main\ShareCenter.java	/^	private int sinaShareState = STATE_NOT_PUBLISH;$/;"	f	class:ShareCenter	file:
+snapToDestination	.\CustomLayout\MyScrollLayout.java	/^	 public void snapToDestination() {    $/;"	m	class:MyScrollLayout
+snapToDestination	.\view\MyScrollLayout.java	/^	 public void snapToDestination() {    $/;"	m	class:MyScrollLayout
+snapToScreen	.\CustomLayout\MyScrollLayout.java	/^	 public void snapToScreen(int whichScreen) {    	$/;"	m	class:MyScrollLayout
+snapToScreen	.\view\MyScrollLayout.java	/^	 public void snapToScreen(int whichScreen) {    	$/;"	m	class:MyScrollLayout
+state	.\Main\MySimpleAdapter.java	/^    	ImageView state;$/;"	f	class:MySimpleAdapter.ViewHolder
+statistic1	.\AGoodHabitPerMonthActivity.java	/^	private TextView statistic1;$/;"	f	class:AGoodHabitPerMonthActivity	file:
+statistic2	.\AGoodHabitPerMonthActivity.java	/^	private TextView statistic2;$/;"	f	class:AGoodHabitPerMonthActivity	file:
+statistic3	.\AGoodHabitPerMonthActivity.java	/^	private TextView statistic3;$/;"	f	class:AGoodHabitPerMonthActivity	file:
+statistic4	.\AGoodHabitPerMonthActivity.java	/^	private TextView statistic4;$/;"	f	class:AGoodHabitPerMonthActivity	file:
+statistic5	.\AGoodHabitPerMonthActivity.java	/^	private TextView statistic5;$/;"	f	class:AGoodHabitPerMonthActivity	file:
+statistic5	.\Main\Details.java	/^	private TextView statistic5;$/;"	f	class:Details	file:
+statistics	.\Main\Details.java	/^	private ContentValues statistics = new ContentValues();$/;"	f	class:Details	file:
+statistics	.\Main\RecordHabit.java	/^	private ContentValues statistics;$/;"	f	class:RecordHabit	file:
+successCount	.\AGoodHabitPerMonthActivity.java	/^	private int successCount;$/;"	f	class:AGoodHabitPerMonthActivity	file:
+successRate	.\AGoodHabitPerMonthActivity.java	/^	private float successRate;$/;"	f	class:AGoodHabitPerMonthActivity	file:
+successfulDays	.\Main\Details.java	/^	private int successfulDays;$/;"	f	class:Details	file:
+successfulDays	.\Main\Habit.java	/^	public int successfulDays = 0;$/;"	f	class:Habit
+successfulDaysBoolean	.\Main\Habit.java	/^	public boolean successfulDaysBoolean = false;$/;"	f	class:Habit
+tag	.\Main\AddHabit.java	/^	private int tag = RED_TAG;$/;"	f	class:AddHabit	file:
+tag	.\Main\Details.java	/^	private int tag;$/;"	f	class:Details	file:
+tag	.\Main\Habit.java	/^	public int tag = -1;$/;"	f	class:Habit
+tagBoolean	.\Main\Habit.java	/^	public boolean tagBoolean = false;$/;"	f	class:Habit
+text	.\Main\ShareCenter.java	/^	private String text;$/;"	f	class:ShareCenter	file:
+time	.\AGoodHabitPerMonthActivity.java	/^	private TextView time;$/;"	f	class:AGoodHabitPerMonthActivity	file:
+timestamp	.\Main\MySimpleAdapter.java	/^    	TextView timestamp;$/;"	f	class:MySimpleAdapter.ViewHolder
+title	.\Main\AddHabit.java	/^	private String title = "";$/;"	f	class:AddHabit	file:
+title	.\Main\Details.java	/^	private String title = "";$/;"	f	class:Details	file:
+title	.\Main\Habit.java	/^	public String title = null;$/;"	f	class:Habit
+title	.\Main\RecordHabit.java	/^	private String title;$/;"	f	class:RecordHabit	file:
+title	.\Main\ShareCenter.java	/^	private String title;$/;"	f	class:ShareCenter	file:
+titleBoolean	.\Main\Habit.java	/^	public boolean titleBoolean = false;$/;"	f	class:Habit
+unchangeInfo	.\Main\RecordHabit.java	/^	private ContentValues unchangeInfo;$/;"	f	class:RecordHabit	file:
+update	.\Main\Share2WeiboRunnable.java	/^	private String update(Weibo weibo, String source, String status, $/;"	m	class:Share2WeiboRunnable	file:
+update	.\Main\ShareCenter.java	/^	private String update(Weibo weibo, String source, String status, $/;"	m	class:ShareCenter	file:
+update	.\databases\HabitDatabase.java	/^	public boolean update(Habit h, Message what) {$/;"	m	class:HabitDatabase
+updateDataBase	.\Service\DataRefreshSvc.java	/^	private void updateDataBase() {$/;"	m	class:DataRefreshSvc	file:
+updateFromService	.\databases\HabitDatabase.java	/^	public void updateFromService() {$/;"	m	class:HabitDatabase
+updateLastOperateTime	.\databases\HabitDatabase.java	/^	public boolean updateLastOperateTime(String uuid) {$/;"	m	class:HabitDatabase
+uuid	.\Main\Details.java	/^	private String uuid = "";$/;"	f	class:Details	file:
+uuid	.\Main\Habit.java	/^	public String uuid = "";$/;"	f	class:Habit
+uuid	.\Main\RecordHabit.java	/^	private String uuid;$/;"	f	class:RecordHabit	file:
+uuid	.\Main\ShareCenter.java	/^	private String uuid;$/;"	f	class:ShareCenter	file:
+uuidBoolean	.\Main\Habit.java	/^	public boolean uuidBoolean = false;$/;"	f	class:Habit
+waitCount	.\AGoodHabitPerMonthActivity.java	/^	private int waitCount;$/;"	f	class:AGoodHabitPerMonthActivity	file:
+weibo	.\Main\Share2WeiboRunnable.java	/^	private Weibo weibo = Weibo.getInstance();$/;"	f	class:Share2WeiboRunnable	file:
+weibo	.\Main\ShareCenter.java	/^	private Weibo weibo= Weibo.getInstance();;$/;"	f	class:ShareCenter	file:
+weibo	.\Main\preference.java	/^	private Weibo weibo= Weibo.getInstance();$/;"	f	class:preference	file:
+weiboAuth	.\Main\AddHabit.java	/^	private boolean weiboAuth;$/;"	f	class:AddHabit	file:
+weiboAuth	.\Main\RecordHabit.java	/^	private boolean weiboAuth;$/;"	f	class:RecordHabit	file:
+weibo_clean	.\Main\preference.java	/^	private Button weibo_clean;$/;"	f	class:preference	file:
+withoutrecordDays	.\Main\Habit.java	/^	public int withoutrecordDays = 0;$/;"	f	class:Habit
+withoutrecordDaysBoolean	.\Main\Habit.java	/^	public boolean withoutrecordDaysBoolean = false;$/;"	f	class:Habit
+words	.\Main\AddHabit.java	/^	private String words = "";$/;"	f	class:AddHabit	file:
+words	.\Main\Habit.java	/^	public String words = null;$/;"	f	class:Habit
+words	.\Main\MySimpleAdapter.java	/^    	TextView words;$/;"	f	class:MySimpleAdapter.ViewHolder
+words	.\Main\RecordHabit.java	/^	private String words;$/;"	f	class:RecordHabit	file:
+wordsBoolean	.\Main\Habit.java	/^	public boolean wordsBoolean = false;$/;"	f	class:Habit

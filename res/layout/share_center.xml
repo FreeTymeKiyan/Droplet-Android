@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+   	>
+   	
+    <RelativeLayout 
+        android:id="@+id/rl_shareTitleBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_title_bar">
+        
+        <ImageButton 
+            android:id="@+id/ib_shareCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/selector_cancel"
+            android:contentDescription="@drawable/selector_cancel"
+            android:background="@android:color/transparent"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="7dp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"/>
+        
+        <TextView 
+            android:id="@+id/tv_shareCenter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_shareCenter"
+            android:layout_centerInParent="true"
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            style="@style/StyleTextViewShadow"/>
+        
+        <ImageButton 
+            android:id="@+id/ib_shareAdmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/selector_admit"
+            android:contentDescription="@drawable/selector_admit"
+            android:background="@android:color/transparent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="7dp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            />
+        
+    </RelativeLayout>
+    
+    <ScrollView 
+        android:id="@+id/sv_avoidCovering"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/rl_shareTitleBar"
+        android:background="@android:color/transparent"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        >
+ 		<RelativeLayout 
+ 		    android:id="@+id/rl_scrollRelatveLayout"
+ 		    android:layout_width="fill_parent"
+ 		    android:layout_height="50dp"
+ 		    >
+ 		    
+	        <TextView 
+	            android:id="@+id/tv_shareImageHint"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:text="@string/tv_shareImageHint"
+	            android:textColor="#70b7b9"
+	            android:textSize="15sp"
+	            android:layout_marginTop="26dp"
+	            android:layout_marginLeft="20dp"
+	            />
+	        
+	        <ImageView 
+	            android:id="@+id/iv_shareImage"
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:src="@android:color/darker_gray"
+	            android:layout_below="@id/tv_shareImageHint"
+	            android:layout_marginTop="10dp"
+	            android:layout_marginRight="5dp"
+	            android:layout_marginLeft="5dp"
+	            android:layout_marginBottom="3dp"
+	            />
+		    
+		    <TextView 
+		        android:id="@+id/tv_shareTextHint"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:text="@string/tv_shareTextHint"
+		        android:textSize="15sp"
+		        android:textColor="#70b7b9"
+		        android:layout_below="@id/iv_shareImage"
+		        android:layout_marginTop="10dp"
+		        android:layout_marginLeft="20dp"
+		        />
+		    
+		    <EditText 
+		        android:id="@+id/et_shareText"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="@string/et_shareText"
+		        android:lines="4"
+		        android:scrollbars="vertical"
+		        android:background="@drawable/attributes_bg"
+		        android:layout_below="@id/tv_shareTextHint"
+		        android:layout_marginTop="3dp"
+		        android:paddingLeft="30dp"
+		        android:paddingRight="30dp"
+		        />
+		    
+ 		</RelativeLayout>       
+ 		
+    </ScrollView>
+    
+    <RelativeLayout 
+        android:id="@+id/rl_APIPanel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/repeat_share_bg"
+        android:layout_alignParentBottom="true"
+        >
+		
+        <!-- 根据认证状态设置图片 -->		        
+        <ImageButton 
+            android:id="@+id/ib_shareToRenren"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:scaleType="fitXY"
+            android:layout_alignParentLeft="true"
+     		android:layout_marginLeft="10dp"
+       		android:layout_centerVertical="true"
+            />
+        <!-- 根据认证状态设置图片 -->
+        <ImageButton 
+            android:id="@+id/ib_shareToWeibo"
+            android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@android:color/transparent"
+	        android:scaleType="fitXY"
+	        android:layout_toRightOf="@id/ib_shareToRenren"
+	        android:layout_marginLeft="10dp"
+	        android:layout_centerVertical="true"
+            />
+        <TextView 
+	        android:id="@+id/tv_shareBarText"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/tv_shareBarText"
+	        android:textSize="16sp"
+	        android:textColor="@android:color/white"
+	        style="@style/StyleTextViewShadow"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="10dp"
+	        android:layout_centerVertical="true"
+	        />
+    </RelativeLayout>
+    
+</RelativeLayout>

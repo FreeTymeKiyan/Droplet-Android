@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#e7e1d3">
+    
+    <RelativeLayout 
+        android:id="@+id/rl_recordTitleBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/main_title_bar">
+        
+        <ImageButton 
+            android:id="@+id/ib_backToWhere"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/selector_cancel"
+            android:contentDescription="@drawable/selector_cancel"
+            android:background="@android:color/transparent"
+           	android:layout_alignParentLeft="true"
+            android:layout_marginLeft="7dp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"/>
+        
+        <TextView 
+            android:id="@+id/tv_recordHabit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_recordHabit"
+            android:layout_centerInParent="true"
+            android:textSize="15sp"
+            android:textColor="#ffffff"
+            style="@style/StyleTextViewShadow"
+            />
+        
+        <ImageButton 
+            android:id="@+id/ib_recordAdmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            android:src="@drawable/selector_admit"
+            android:contentDescription="@drawable/selector_admit"
+            android:background="@android:color/transparent"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="7dp"
+            android:layout_centerVertical="true"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            />
+        
+    </RelativeLayout>
+    
+    <ScrollView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:layout_below="@id/rl_recordTitleBar"
+        android:paddingRight="5dp"
+        android:paddingLeft="5dp"
+        >
+    	
+        <RelativeLayout 
+            android:id="@+id/rl_recordScrollView"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            >
+            <TextView 
+		        android:id="@+id/tv_beforeRecordHint"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/tv_beforeRecordHint"
+		        android:textSize="15sp"
+				android:textColor="#70b7b9"
+				android:layout_below="@id/rl_recordTitleBar"
+				android:layout_marginTop="26dp"
+				android:layout_marginLeft="20dp"
+		        />
+            
+            <TextView 
+                android:id="@+id/tv_prePublish"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:layout_below="@id/tv_beforeRecordHint"
+                android:layout_marginTop="7dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                />
+    
+		    <EditText 
+		        android:id="@+id/et_recordWords"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:hint="@string/et_recordWords"
+		        android:lines="4"
+		        android:background="@drawable/attributes_bg"
+		        android:layout_below="@id/tv_prePublish"
+		        android:layout_marginTop="7dp"
+		        android:paddingLeft="30dp"
+		        android:paddingRight="30dp"
+		        />
+		    
+		    <TextView 
+                android:id="@+id/tv_textLimit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="right"
+                android:textSize="15sp"
+                android:textColor="@android:color/black"
+                android:layout_below="@id/et_recordWords"
+                android:layout_marginTop="3dp"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                />
+		    
+		    <TextView 
+		        android:id="@+id/tv_recordKeepUp"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/tv_recordKeepUp"
+		        android:textSize="15sp"
+		        android:textColor="#70b7b9"
+		        android:layout_below="@id/tv_textLimit"
+		        android:layout_marginTop="10dp"
+		        android:layout_marginLeft="20dp"
+		        />
+		    
+	        <!-- 自定义的按钮 --> 
+	        <RelativeLayout 
+	            android:id="@+id/rl_keepUp"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/attributes_bg"
+	            android:layout_below="@id/tv_recordKeepUp"
+	            android:layout_marginTop="7dp"
+	            android:paddingLeft="13dp"
+	            android:paddingRight="13dp"
+	            >
+	        	<LinearLayout 
+			        android:id="@+id/ll_successful" 
+			        android:layout_width="wrap_content" 
+			        android:layout_height="fill_parent" 
+			        android:layout_marginTop="10dp"
+		       	 	/>
+	    
+			    <LinearLayout 
+			        android:id="@+id/ll_fail" 
+			        android:layout_width="wrap_content" 
+			        android:layout_height="fill_parent" 
+			        android:layout_alignTop="@id/ll_successful"
+			        android:layout_alignParentRight="true"
+			        />    
+			        
+			    <LinearLayout 
+			        android:id="@+id/ll_record" 
+			        android:layout_width="wrap_content" 
+			        android:layout_height="fill_parent" 
+			        android:layout_marginTop="10dp"
+			        android:layout_centerInParent="true"
+			        />
+            
+        	</RelativeLayout>
+        	
+        </RelativeLayout>
+        
+    </ScrollView>  
+    
+    <RelativeLayout 
+        android:id="@+id/rl_recordBottomPanel"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/repeat_share_bg"
+        android:layout_alignParentBottom="true"
+        >
+	    
+	    <ImageButton 
+	        android:id="@+id/ib_recordToRenren"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/renren_icon_dark"
+			android:background="@android:color/transparent"
+	        android:contentDescription="@drawable/renren_icon_light"
+	        android:scaleType="fitXY"
+	        android:layout_alignParentLeft="true"
+	        android:layout_marginLeft="10dp"
+	        android:layout_centerVertical="true"
+	        />
+	    
+	    <ImageButton 
+	        android:id="@+id/ib_recordToWeibo"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/weibo_icon_dark"
+	        android:background="@android:color/transparent"
+	        android:contentDescription="@drawable/weibo_icon_light"
+	        android:scaleType="fitXY"
+	        android:layout_toRightOf="@id/ib_recordToRenren"
+	        android:layout_marginLeft="10dp"
+	        android:layout_centerVertical="true"
+	        />
+	    
+	    <TextView 
+	        android:id="@+id/tv_shareBarText"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/tv_shareBarText"
+	        android:textSize="16sp"
+	        android:textColor="@android:color/white"
+	        style="@style/StyleTextViewShadow"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="10dp"
+	        android:layout_centerVertical="true"
+	        />
+	    
+    </RelativeLayout>
+    
+</RelativeLayout>

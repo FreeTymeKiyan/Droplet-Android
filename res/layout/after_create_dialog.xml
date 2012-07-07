@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:id="@+id/rl_afterCreate"
+    android:background="@drawable/u0_original">
+    
+    <TextView 
+        android:id="@+id/tv_newHabitHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_newHabitHint"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:padding="5dp"
+        android:layout_margin="5dp"/>
+    
+    <TextView 
+        android:id="@+id/tv_shareHabitHint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_shareHabitHint"
+        android:textSize="10sp"
+        android:textColor="@android:color/black"
+        android:layout_below="@id/tv_newHabitHint"
+        android:layout_alignLeft="@id/tv_newHabitHint"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"/>
+    
+    <Button
+        android:id="@+id/btn_share2Renren"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_shareHabitHint"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/btn_share2Renren" />
+    
+    <Button
+        android:id="@+id/btn_share2Weibo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_share2Renren"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/btn_share2Weibo" />
+    
+    <Button
+        android:id="@+id/btn_cancelShare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_share2Weibo"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/btn_cancelShare" />
+
+</RelativeLayout>

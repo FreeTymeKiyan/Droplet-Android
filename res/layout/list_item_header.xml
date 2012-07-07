@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/list_item_header"
+    android:layout_width="fill_parent"
+    android:layout_height="173dp"
+   	android:background="@drawable/main_title_bar"
+    >
+    
+    <TextView 
+        android:id="@+id/Ins_beforeStatistic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Mine"
+        android:textSize="14sp"
+        android:textColor="#ffffff"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="20dp"
+        />
+    <!-- 内容从代码设置 -->
+    <TextView 
+        android:id="@+id/habit_count_statistic1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"	
+        android:textColor="#ffffff"
+        android:layout_alignBottom="@id/Ins_beforeStatistic"
+        android:layout_toRightOf="@id/Ins_beforeStatistic"
+        />
+    <TextView 
+        android:id="@+id/Ins_afterstatistic1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/habit"
+        android:textColor="#ffffff"
+        android:textSize="14sp"
+        android:layout_alignBottom="@+id/habit_count_statistic1"
+        android:layout_toRightOf="@+id/habit_count_statistic1"
+        />    
+    </RelativeLayout>

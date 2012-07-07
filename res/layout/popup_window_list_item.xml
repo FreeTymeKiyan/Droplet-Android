@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+     >
+    <!-- 内容从代码设置 -->
+    <ImageView 
+        android:id="@+id/iv_mainFastRecordTag"
+        android:layout_width="5dp"
+        android:layout_height="22dp"
+        android:background="@android:color/transparent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        />
+    <!-- 内容从代码设置 -->
+	<TextView  
+	    android:id="@+id/tv_mainFastRecordTitle"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:singleLine="true"
+	    android:textSize="13sp"
+	    android:textColor="@android:color/black"
+	    android:layout_centerVertical="true"
+	    android:layout_toRightOf="@id/iv_mainFastRecordTag"
+	    android:paddingLeft="5dp"
+	    android:paddingTop="7dp"
+	    android:paddingBottom="7dp"
+	    android:paddingRight="5dp"
+	    />
+	<!-- 内容从代码设置 -->
+	<ImageView 
+	    android:id="@+id/iv_mainFastRecordState"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:background="@android:color/transparent"
+	    android:layout_centerVertical="true"
+	    android:layout_alignParentRight="true"
+	   	android:layout_marginRight="5dp"
+	    />
+</RelativeLayout>

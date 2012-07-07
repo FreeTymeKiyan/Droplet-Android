@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_mainListViewHeader"
+    android:layout_width="fill_parent"
+    android:layout_height="173dp"
+    android:background="@android:color/transparent"
+    >
+    
+    <TextView 
+        android:id="@+id/tv_beforeStatistic1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_beforeStatistic1"
+        android:textSize="15sp"
+        android:textColor="@android:color/white"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        />
+    <!-- 内容从代码设置 -->
+    <TextView 
+        android:id="@+id/tv_statistic1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"	
+        android:textColor="@android:color/white"
+        android:layout_alignBottom="@id/tv_beforeStatistic1"
+        android:layout_toRightOf="@id/tv_beforeStatistic1"
+        />
+    <TextView 
+        android:id="@+id/tv_afterstatistic1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_afterStatistic1"
+        android:textColor="@android:color/white"
+        android:textSize="15sp"
+        android:layout_alignBottom="@id/tv_statistic1"
+        android:layout_toRightOf="@id/tv_statistic1"
+        />
+        
+    <RelativeLayout 
+        android:id="@+id/rl_mainStatisticsRightTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        >
+        
+        <TextView 
+            android:id="@+id/tv_between1and2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_between1and2"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:layout_below="@id/tv_afterstatistic1"
+            android:layout_alignParentRight="true"
+            />
+        
+        <TextView 
+            android:id="@+id/tv_afterStatistic2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_afterStatistic2"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:layout_below="@id/tv_between1and2"
+            android:layout_marginTop="3dp"
+            android:layout_alignParentRight="true"
+            />
+        <!-- 内容从代码设置 -->
+        <TextView 
+            android:id="@+id/tv_statistic2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_alignBottom="@id/tv_afterStatistic2"
+            android:layout_toLeftOf="@id/tv_afterStatistic2"
+            />
+        
+        <TextView 
+            android:id="@+id/tv_beforeStatistic2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_beforeStatistic2"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:singleLine="true"
+			android:layout_alignBottom="@id/tv_afterStatistic2"            
+			android:layout_toLeftOf="@id/tv_statistic2"
+            />
+        
+        
+        <TextView 
+            android:id="@+id/tv_afterStatistic3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_afterStatistic3"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:layout_below="@id/tv_afterStatistic2"
+            android:layout_marginTop="3dp"
+            android:layout_alignParentRight="true"
+            />
+        <!-- 内容从代码设置 -->
+        <TextView 
+            android:id="@+id/tv_statistic3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_alignBottom="@id/tv_afterStatistic3"
+            android:layout_toLeftOf="@id/tv_afterStatistic3"
+            />
+        <TextView 
+            android:id="@+id/tv_beforeStatistic3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|right"
+            android:text="@string/tv_beforeStatistic3"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:singleLine="true"
+			android:layout_toLeftOf="@id/tv_statistic3"
+			android:layout_alignBottom="@id/tv_afterStatistic3"            
+            />
+        
+       
+        <TextView 
+            android:id="@+id/tv_afterStatistic4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_afterStatistic4"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:layout_below="@id/tv_afterStatistic3"
+            android:layout_marginTop="3dp"
+            android:layout_alignParentRight="true"
+            />
+        <!-- 内容从代码设置 -->
+        <TextView 
+            android:id="@+id/tv_statistic4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_alignBottom="@id/tv_afterStatistic4"
+            android:layout_toLeftOf="@id/tv_afterStatistic4"
+            />
+        <TextView 
+            android:id="@+id/tv_beforeStatistic4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tv_beforeStatistic4"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:singleLine="true"
+            android:gravity="right"
+			android:layout_toLeftOf="@id/tv_statistic4"
+			android:layout_alignBottom="@id/tv_afterStatistic4"            
+            />
+        
+    </RelativeLayout>
+    
+    <!-- 内容从代码设置 -->
+   	<TextView 
+       	android:id="@+id/tv_successRate"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/tv_successRate"
+		android:textSize="15sp"	        
+		android:textColor="@android:color/white"
+		android:layout_below="@id/tv_statistic1"
+		android:layout_alignParentLeft="true"
+       	android:layout_marginLeft="10dp"
+       	android:layout_marginTop="120dp"
+       />
+   	
+   	<TextView 
+       	android:id="@+id/tv_successRateNum"
+		android:layout_width="wrap_content"
+	   	android:layout_height="wrap_content"
+	   	android:textSize="30sp"
+	   	android:textColor="@android:color/white"
+	   	android:layout_below="@id/tv_successRate"
+	   	android:layout_marginTop="5dp"
+	   	android:layout_marginLeft="10dp"
+	   	android:paddingBottom="10dp"
+       />
+   	
+   	<!-- 内容从代码设置 -->
+	<TextView 
+	    android:id="@+id/tv_mainDate"
+        android:layout_width="fill_parent"
+       	android:layout_height="wrap_content"
+       	android:gravity="right"
+       	android:textSize="15sp"
+       	android:textColor="@android:color/white"
+       	android:layout_alignTop="@id/tv_successRateNum"
+       	android:layout_alignParentRight="true"
+       	android:layout_marginRight="10dp"
+	    />
+   	
+   	<!-- 内容从代码设置 -->
+	<TextView 
+	    android:id="@+id/tv_mainTime"
+	    android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:textSize="15sp"
+		android:textColor="@android:color/white"
+		android:layout_alignParentRight="true"
+		android:layout_marginRight="10dp"
+		android:layout_alignBottom="@id/tv_successRateNum"
+		android:paddingBottom="10dp"
+	    />
+	    
+	
+	
+</RelativeLayout>

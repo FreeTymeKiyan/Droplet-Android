@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#e7e1d3" >
+	<org.dian.kiyan.CustomLayout.MyScrollLayout    
+		xmlns:android="http://schemas.android.com/apk/res/android"    
+		android:id="@+id/ScrollLayout"   
+		android:background="@android:color/transparent" 
+	 	android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"> 
+
+ 		<FrameLayout 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:background="@drawable/guide01" >
+		  	<ListView
+		        android:id="@+id/List_Guide_Item"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent" 
+		        android:divider="@drawable/line"
+	        	android:dividerHeight="1dp"
+		        android:cacheColorHint="#00000000"
+		        android:drawSelectorOnTop="false"
+		        android:scrollingCache="false"
+		        android:fadingEdge="none"  
+		     />
+		</FrameLayout>
+		
+		<RelativeLayout 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+	    	android:background="#e7e1d3"  >
+		    <RelativeLayout 
+		        android:id="@+id/rl_detailTitleBar"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/main_title_bar">
+        
+			        <ImageButton 
+			            android:id="@+id/ib_guideMenu"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:scaleType="fitXY"
+			            android:src="@drawable/selector_side_list"
+			            android:contentDescription="@drawable/ib_main_menu"
+			            android:background="@android:color/transparent"
+			            android:layout_centerVertical="true"
+			            android:layout_marginLeft="7dp"
+			            android:layout_marginTop="4dp"
+			            android:layout_marginBottom="4dp"/>
+        
+			        <TextView 
+			            android:id="@+id/tv_habitDetails"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:layout_centerInParent="true"
+			            android:textSize="15sp"
+			            android:textColor="#ffffff"
+			            style="@style/StyleTextViewShadow"
+			            />
+        
+			        <ImageButton 
+			            android:id="@+id/ib_share"
+			            android:layout_width="wrap_content"
+			            android:layout_height="wrap_content"
+			            android:scaleType="fitXY"
+			            android:src="@drawable/selector_share"
+			            android:contentDescription="@drawable/ib_main_share"
+			            android:background="@android:color/transparent"
+			            android:layout_centerVertical="true"
+			            android:layout_alignParentRight="true"
+						android:layout_marginRight="7dp"            
+						android:layout_marginTop="4dp"
+						android:layout_marginBottom="4dp"/>
+			        
+		    </RelativeLayout>
+    
+		    <ListView 
+		        android:id="@+id/lv_singleHabitLog"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent"
+		        android:cacheColorHint="#00000000" 
+		        android:divider="@drawable/line"
+		        android:dividerHeight="1px"
+		       	android:drawSelectorOnTop="false"
+		       	android:scrollingCache="false"
+	        	android:fadingEdge="none"
+		       	android:listSelector="@android:color/transparent"
+		       	android:layout_below="@id/rl_detailTitleBar"
+		        />
+    
+		    <RelativeLayout 
+		        android:id="@+id/rl_bottomPanel"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:background="@android:color/transparent"
+		        android:layout_alignParentBottom="true"
+		        android:layout_marginBottom="10dp"
+		        >
+	    
+			    <ImageButton 
+			        android:id="@+id/ib_detailRecord"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:src="@drawable/ib_main_fast_record"
+					android:background="@android:color/transparent"
+			        android:contentDescription="@drawable/ib_main_fast_record"
+			        android:scaleType="fitXY"
+			        android:layout_alignParentLeft="true"
+			        android:layout_marginLeft="10dp"
+			        android:layout_alignParentBottom="true"
+			        />
+	    
+			    <ImageView 
+			        android:id="@+id/ib_detailRecordPlus"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:src="@drawable/ib_main_fast_record_plus"
+					android:contentDescription="@drawable/ib_main_fast_record_plus"
+					android:scaleType="fitXY"
+			        android:layout_alignParentLeft="true"
+			        android:layout_marginLeft="10dp"
+			        android:layout_alignParentBottom="true"
+			        />
+   
+			    <ImageButton 
+			        android:id="@+id/ib_detailBackToTop"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:src="@drawable/ib_main_back_to_top"
+			        android:background="@android:color/transparent"
+			        android:contentDescription="@drawable/ib_main_back_to_top"
+			        android:scaleType="fitXY"
+			        android:layout_alignParentRight="true"
+			        android:layout_marginRight="10dp"
+			        android:layout_alignParentBottom="true"
+			        />
+				    
+		    </RelativeLayout>
+		</RelativeLayout>
+	</org.dian.kiyan.CustomLayout.MyScrollLayout> 
+</RelativeLayout>

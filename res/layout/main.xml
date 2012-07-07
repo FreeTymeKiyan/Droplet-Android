@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#e7e1d3" >
+
+	<org.dian.kiyan.CustomLayout.MyScrollLayout    
+		xmlns:android="http://schemas.android.com/apk/res/android"    
+		android:id="@+id/ScrollLayout"    
+	  	android:layout_width="fill_parent" 
+	 	android:layout_height="fill_parent"> 
+ 		<FrameLayout 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:background="@drawable/guide01" >
+		  	<ListView
+		        android:id="@+id/List_Guide_Item"
+		        android:layout_width="fill_parent"
+		        android:layout_height="fill_parent" 
+		        android:cacheColorHint="#00000000"
+		        android:divider="@drawable/line"
+	        	android:dividerHeight="1dp"
+		        android:drawSelectorOnTop="false"
+		        android:scrollingCache="false"
+		        android:fadingEdge="none"  
+		     />
+		  	<RelativeLayout 
+		        android:id="@+id/list_BottomPanel"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:background="@android:color/transparent"
+		        android:layout_alignParentBottom="true"
+		        android:layout_marginBottom="10dp"
+	        	>
+	    
+	    		<TextView 
+			        android:id="@+id/exit"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textSize="14sp"
+			    	android:textColor="#ffffff"
+			        android:scaleType="fitXY"
+			        android:layout_alignParentLeft="true"
+			        android:layout_marginLeft="10dp"
+			        android:layout_alignParentBottom="true"
+	        	/>
+	    
+			    <ImageView 
+			        android:id="@+id/exit_image"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:src="@drawable/feidie"
+			        android:background="@android:color/transparent"
+			        android:scaleType="fitXY"
+			        android:layout_alignParentRight="true"
+			        android:layout_marginRight="10dp"
+			        android:layout_alignParentBottom="true"
+			        />
+	     	</RelativeLayout>
+		</FrameLayout>
+		
+		<RelativeLayout 
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+		    <RelativeLayout 
+		        android:id="@+id/rl_mainTitleBar"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:background="@drawable/main_title_bar"
+		        >
+        
+	        <ImageButton 
+	            android:id="@+id/ib_addNew"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:scaleType="fitXY"
+	            android:src="@drawable/selector_side_list"
+	            android:contentDescription="@drawable/ib_main_menu"
+	            android:background="@android:color/transparent"
+	            android:layout_centerVertical="true"
+	            android:layout_marginLeft="7dp"
+	            android:layout_marginTop="4dp"
+	            android:layout_marginBottom="4dp"
+	            />
+        
+	        <TextView 
+	            android:id="@+id/tv_myHabits"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/app_name"
+	            android:layout_centerInParent="true"
+	            android:textSize="15sp"
+	            android:textColor="#ffffff"
+	            style="@style/StyleTextViewShadow"/>
+        
+	        <ImageButton 
+	            android:id="@+id/ib_mainShare"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:scaleType="fitXY"
+	            android:src="@drawable/selector_share"
+	            android:contentDescription="@drawable/selector_share"
+	            android:background="@android:color/transparent"
+	            android:layout_centerVertical="true"
+	            android:layout_alignParentRight="true"
+				android:layout_marginRight="7dp"            
+				android:layout_marginTop="4dp"
+				android:layout_marginBottom="4dp"
+	            />
+        
+   		</RelativeLayout>
+       
+	    <ListView
+	        android:id="@+id/lv_allHabitsLogList"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent" 
+	        android:cacheColorHint="#00000000"
+	        android:divider="@drawable/line"
+	        android:dividerHeight="1dp"
+	        android:drawSelectorOnTop="false"
+	        android:scrollingCache="false"
+	        android:fadingEdge="none"
+	        android:listSelector="@drawable/list_selector"
+	        android:layout_below="@id/rl_mainTitleBar"
+	        />
+       
+			<RelativeLayout 
+		        android:id="@+id/rl_mainBottomPanel"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:background="@android:color/transparent"
+		        android:layout_alignParentBottom="true"
+		        android:layout_marginBottom="10dp"
+		        >
+		    
+			    <ImageButton 
+			        android:id="@+id/ib_mainFastRecord"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:src="@drawable/ib_main_fast_record"
+					android:background="@android:color/transparent"
+			        android:contentDescription="@drawable/ib_main_fast_record"
+			        android:scaleType="fitXY"
+			        android:layout_alignParentLeft="true"
+			        android:layout_marginLeft="10dp"
+			        android:layout_alignParentBottom="true"
+			        />
+			    
+			    <ImageView 
+			        android:id="@+id/ib_mainFastRecordPlus"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:src="@drawable/ib_main_fast_record_plus"
+					android:contentDescription="@drawable/ib_main_fast_record_plus"
+					android:scaleType="fitXY"
+			        android:layout_alignParentLeft="true"
+			        android:layout_marginLeft="10dp"
+			        android:layout_alignParentBottom="true"
+			        />
+		    
+			    <ImageButton 
+			        android:id="@+id/ib_mainBackToTop"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:src="@drawable/ib_main_back_to_top"
+			        android:background="@android:color/transparent"
+			        android:contentDescription="@drawable/ib_main_back_to_top"
+			        android:scaleType="fitXY"
+			        android:layout_alignParentRight="true"
+			        android:layout_marginRight="10dp"
+			        android:layout_alignParentBottom="true"
+		        	/>
+	     	</RelativeLayout>
+	    </RelativeLayout>
+	</org.dian.kiyan.CustomLayout.MyScrollLayout> 
+</RelativeLayout>

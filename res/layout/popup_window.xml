@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_popupWindow"
+    android:layout_width="120dp"
+    android:layout_height="wrap_content"
+    android:background="@drawable/attributes_bg" 
+    android:focusableInTouchMode="true"
+    >    
+    
+    <ListView 
+        android:id="@+id/lv_mainFastRecord"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:drawSelectorOnTop="false" 
+        android:focusableInTouchMode="true"
+        android:divider="@drawable/line"
+        android:listSelector="@drawable/list_selector"
+        android:scrollingCache="false"
+        >
+        
+    </ListView>
+    
+
+</RelativeLayout>

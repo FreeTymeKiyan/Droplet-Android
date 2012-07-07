@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:id="@+id/mainListItem"
+    android:paddingLeft="7dp"
+    android:paddingRight="7dp"
+    android:paddingTop="7dp"
+    android:paddingBottom="7dp"
+    >
+    
+    <TextView 
+        android:id="@+id/tv_itemTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:textColor="@android:color/black"
+        android:singleLine="true"
+		android:paddingLeft="13dp"        
+		android:paddingRight="20dp"
+        />
+    
+	<TextView 
+	    android:id="@+id/tv_itemWords"
+	    android:layout_width="186dp"
+	    android:layout_height="wrap_content"
+	    android:textSize="15sp"
+	    android:textColor="#3d4c53"
+	    android:background="@drawable/list_item_words"
+	    android:layout_below="@id/tv_itemTitle"
+		android:paddingTop="13dp"
+	    android:paddingLeft="13dp"
+	    android:paddingRight="20dp"
+	    android:paddingBottom="13dp"
+	    />
+	
+	<ImageView 
+	    android:id="@+id/iv_itemState"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:scaleType="fitCenter"
+	    android:layout_toRightOf="@id/tv_itemWords"
+	    android:layout_marginTop="19dp"
+	    android:layout_marginLeft="7dp"
+	    />
+
+	<TextView 
+	    android:id="@+id/tv_itemTimestamp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="12sp"
+	    android:textColor="#3d4c53"
+	    android:shadowDy="1.0"
+	    android:shadowColor="#ffffff"
+	    android:layout_alignTop="@id/iv_itemState"
+	    android:layout_toRightOf="@id/iv_itemState"
+	    android:layout_marginLeft="11dp"
+	    />
+		
+	<TextView 
+	    android:id="@+id/tv_itemStateText"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="15sp"
+	    android:textColor="#70b7b9"
+	    android:layout_below="@id/tv_itemTimestamp"
+	    android:layout_toRightOf="@id/iv_itemState"
+	    android:layout_alignLeft="@id/tv_itemTimestamp"
+	    />
+	
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+  	<!--触摸时并且没有获得焦点状态 -->  
+  	<item android:state_pressed="true" android:state_focused="false" android:drawable="@drawable/add_cancel_focused" />  
+  	<!-- 窗口没有处于交互时的背景图片 -->  
+  	<item android:drawable="@drawable/add_cancel" /> 
+</selector>

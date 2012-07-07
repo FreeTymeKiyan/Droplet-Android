@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:id="@+id/customListItem"
+    android:paddingLeft="7dp"
+    android:paddingRight="7dp"
+    android:paddingTop="7dp"
+    android:paddingBottom="7dp"
+    >
+    
+	<TextView 
+	    android:id="@+id/tv_detailWords"
+	    android:layout_width="186dp"
+	    android:layout_height="wrap_content"
+	    android:textSize="15sp"
+	    android:textColor="#3d4c53"
+	    android:background="@drawable/list_item_words"
+	    android:paddingLeft="13dp"
+	    android:paddingRight="20dp"
+	    android:paddingTop="13dp"
+	    android:paddingBottom="13dp"
+	    />
+	
+	<ImageView 
+	    android:id="@+id/iv_detailState"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:scaleType="fitCenter"
+	    android:layout_toRightOf="@id/tv_detailWords"
+	    android:layout_marginLeft="7dp"
+	    android:contentDescription="显示状态"
+	    />
+	
+	<TextView 
+	    android:id="@+id/tv_timestamp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="12sp"
+	    android:textColor="#3d4c53"
+	    android:shadowDy="1.0"
+	    android:shadowColor="#ffffff"
+	    android:layout_alignTop="@id/iv_detailState"
+	    android:layout_toRightOf="@id/iv_detailState"
+	    android:layout_marginLeft="11dp"
+	    />
+		
+	<TextView 
+	    android:id="@+id/tv_detailStateTitle"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:textSize="15sp"
+	    android:textColor="#70b7b9"
+	    android:layout_below="@id/tv_timestamp"
+	    android:layout_alignLeft="@id/tv_timestamp"
+	    />
+	
+</RelativeLayout>
